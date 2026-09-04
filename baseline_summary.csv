@@ -1,0 +1,37 @@
+"dataset","fault","method","n_cases","detection_rate","mean_auc"
+"RE1-OB","cpu","Isolation Forest",25,0.12,0.54716
+"RE1-OB","cpu","OC-SVM",25,0.44,0.87724
+"RE1-OB","cpu","PCA",25,0.76,0.8926
+"RE1-OB","delay","Isolation Forest",25,0.72,0.8664
+"RE1-OB","delay","OC-SVM",25,0.56,0.92204
+"RE1-OB","delay","PCA",25,0.88,0.9588
+"RE1-OB","disk","Isolation Forest",25,0.72,0.85068
+"RE1-OB","disk","OC-SVM",25,0.64,0.95268
+"RE1-OB","disk","PCA",25,1,0.9806
+"RE1-OB","mem","Isolation Forest",25,0.84,0.8514
+"RE1-OB","mem","OC-SVM",25,0.56,0.91196
+"RE1-OB","mem","PCA",25,0.92,0.94552
+"RE1-SS","cpu","Isolation Forest",25,0.64,0.85336
+"RE1-SS","cpu","OC-SVM",25,0.04,0.687
+"RE1-SS","cpu","PCA",25,0.76,0.89132
+"RE1-SS","delay","Isolation Forest",25,0.92,0.947
+"RE1-SS","delay","OC-SVM",25,0.12,0.68476
+"RE1-SS","delay","PCA",25,0.96,0.95824
+"RE1-SS","disk","Isolation Forest",25,0.84,0.88436
+"RE1-SS","disk","OC-SVM",25,0.08,0.70244
+"RE1-SS","disk","PCA",25,0.96,0.94608
+"RE1-SS","mem","Isolation Forest",25,1,0.97276
+"RE1-SS","mem","OC-SVM",25,0,0.63732
+"RE1-SS","mem","PCA",25,0.92,0.90016
+"RE1-TT","cpu","Isolation Forest",25,0.6,0.75088
+"RE1-TT","cpu","OC-SVM",25,0,0.54684
+"RE1-TT","cpu","PCA",25,0.88,0.87828
+"RE1-TT","delay","Isolation Forest",25,0.72,0.8464
+"RE1-TT","delay","OC-SVM",25,0,0.5614
+"RE1-TT","delay","PCA",25,0.8,0.8842
+"RE1-TT","disk","Isolation Forest",25,0.8,0.86828
+"RE1-TT","disk","OC-SVM",25,0,0.55172
+"RE1-TT","disk","PCA",25,1,0.98468
+"RE1-TT","mem","Isolation Forest",25,0.96,0.92864
+"RE1-TT","mem","OC-SVM",25,0,0.5208
+"RE1-TT","mem","PCA",25,0.8,0.91324

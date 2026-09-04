@@ -1,0 +1,3 @@
+# HCF demo runtime requirements
+# 复现脚本 hcf_demo.py 的最小依赖
+numpy>=1.20

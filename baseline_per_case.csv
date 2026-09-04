@@ -1,0 +1,901 @@
+"dataset","method","case_id","service","fault","repeat_no","n_train","n_cal","n_ab","alarm_fraction","detected","auc"
+"RE1-OB","PCA","RE1-OB_adservice_cpu_1","adservice","cpu","1",180,120,300,0.993,TRUE,0.998
+"RE1-OB","Isolation Forest","RE1-OB_adservice_cpu_1","adservice","cpu","1",180,120,300,0.17,TRUE,0.672
+"RE1-OB","OC-SVM","RE1-OB_adservice_cpu_1","adservice","cpu","1",180,120,300,0.993,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_adservice_cpu_2","adservice","cpu","2",180,120,300,0,FALSE,0.84
+"RE1-OB","Isolation Forest","RE1-OB_adservice_cpu_2","adservice","cpu","2",180,120,300,0.013,FALSE,0.54
+"RE1-OB","OC-SVM","RE1-OB_adservice_cpu_2","adservice","cpu","2",180,120,300,0,FALSE,0.689
+"RE1-OB","PCA","RE1-OB_adservice_cpu_3","adservice","cpu","3",180,120,300,0.993,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_adservice_cpu_3","adservice","cpu","3",180,120,300,0,FALSE,0.441
+"RE1-OB","OC-SVM","RE1-OB_adservice_cpu_3","adservice","cpu","3",180,120,300,0.993,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_adservice_cpu_4","adservice","cpu","4",180,120,300,0,FALSE,0.501
+"RE1-OB","Isolation Forest","RE1-OB_adservice_cpu_4","adservice","cpu","4",180,120,300,0.003,FALSE,0.363
+"RE1-OB","OC-SVM","RE1-OB_adservice_cpu_4","adservice","cpu","4",180,120,300,0,FALSE,0.74
+"RE1-OB","PCA","RE1-OB_adservice_cpu_5","adservice","cpu","5",180,120,300,0.94,TRUE,0.972
+"RE1-OB","Isolation Forest","RE1-OB_adservice_cpu_5","adservice","cpu","5",180,120,300,0,FALSE,0.149
+"RE1-OB","OC-SVM","RE1-OB_adservice_cpu_5","adservice","cpu","5",180,120,300,0,FALSE,0.736
+"RE1-OB","PCA","RE1-OB_adservice_delay_1","adservice","delay","1",180,120,300,0,FALSE,0.823
+"RE1-OB","Isolation Forest","RE1-OB_adservice_delay_1","adservice","delay","1",180,120,300,0.187,TRUE,0.771
+"RE1-OB","OC-SVM","RE1-OB_adservice_delay_1","adservice","delay","1",180,120,300,0,FALSE,0.899
+"RE1-OB","PCA","RE1-OB_adservice_delay_2","adservice","delay","2",180,120,300,0.98,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_adservice_delay_2","adservice","delay","2",180,120,300,0,FALSE,0.532
+"RE1-OB","OC-SVM","RE1-OB_adservice_delay_2","adservice","delay","2",180,120,300,0.963,TRUE,0.996
+"RE1-OB","PCA","RE1-OB_adservice_delay_3","adservice","delay","3",180,120,300,0.967,TRUE,0.985
+"RE1-OB","Isolation Forest","RE1-OB_adservice_delay_3","adservice","delay","3",180,120,300,0.007,FALSE,0.711
+"RE1-OB","OC-SVM","RE1-OB_adservice_delay_3","adservice","delay","3",180,120,300,0.96,TRUE,0.98
+"RE1-OB","PCA","RE1-OB_adservice_delay_4","adservice","delay","4",180,120,300,0,FALSE,0.83
+"RE1-OB","Isolation Forest","RE1-OB_adservice_delay_4","adservice","delay","4",180,120,300,0.007,FALSE,0.348
+"RE1-OB","OC-SVM","RE1-OB_adservice_delay_4","adservice","delay","4",180,120,300,0,FALSE,0.747
+"RE1-OB","PCA","RE1-OB_adservice_delay_5","adservice","delay","5",180,120,300,0.977,TRUE,0.998
+"RE1-OB","Isolation Forest","RE1-OB_adservice_delay_5","adservice","delay","5",180,120,300,0.25,TRUE,0.846
+"RE1-OB","OC-SVM","RE1-OB_adservice_delay_5","adservice","delay","5",180,120,300,0.96,TRUE,0.997
+"RE1-OB","PCA","RE1-OB_adservice_disk_1","adservice","disk","1",180,120,300,0.933,TRUE,0.969
+"RE1-OB","Isolation Forest","RE1-OB_adservice_disk_1","adservice","disk","1",180,120,300,0.247,TRUE,0.925
+"RE1-OB","OC-SVM","RE1-OB_adservice_disk_1","adservice","disk","1",180,120,300,0.95,TRUE,0.993
+"RE1-OB","PCA","RE1-OB_adservice_disk_2","adservice","disk","2",180,120,300,0.99,TRUE,0.991
+"RE1-OB","Isolation Forest","RE1-OB_adservice_disk_2","adservice","disk","2",180,120,300,0.09,FALSE,0.832
+"RE1-OB","OC-SVM","RE1-OB_adservice_disk_2","adservice","disk","2",180,120,300,0.99,TRUE,0.99
+"RE1-OB","PCA","RE1-OB_adservice_disk_3","adservice","disk","3",180,120,300,0.877,TRUE,0.988
+"RE1-OB","Isolation Forest","RE1-OB_adservice_disk_3","adservice","disk","3",180,120,300,0,FALSE,0.436
+"RE1-OB","OC-SVM","RE1-OB_adservice_disk_3","adservice","disk","3",180,120,300,0,FALSE,0.965
+"RE1-OB","PCA","RE1-OB_adservice_disk_4","adservice","disk","4",180,120,300,0.97,TRUE,0.992
+"RE1-OB","Isolation Forest","RE1-OB_adservice_disk_4","adservice","disk","4",180,120,300,0.207,TRUE,0.905
+"RE1-OB","OC-SVM","RE1-OB_adservice_disk_4","adservice","disk","4",180,120,300,0.97,TRUE,0.994
+"RE1-OB","PCA","RE1-OB_adservice_disk_5","adservice","disk","5",180,120,300,0.933,TRUE,0.957
+"RE1-OB","Isolation Forest","RE1-OB_adservice_disk_5","adservice","disk","5",180,120,300,0.057,FALSE,0.76
+"RE1-OB","OC-SVM","RE1-OB_adservice_disk_5","adservice","disk","5",180,120,300,0.933,TRUE,0.941
+"RE1-OB","PCA","RE1-OB_adservice_mem_1","adservice","mem","1",180,120,300,0.947,TRUE,0.977
+"RE1-OB","Isolation Forest","RE1-OB_adservice_mem_1","adservice","mem","1",180,120,300,0.23,TRUE,0.883
+"RE1-OB","OC-SVM","RE1-OB_adservice_mem_1","adservice","mem","1",180,120,300,0.947,TRUE,0.971
+"RE1-OB","PCA","RE1-OB_adservice_mem_2","adservice","mem","2",180,120,300,0.963,TRUE,0.984
+"RE1-OB","Isolation Forest","RE1-OB_adservice_mem_2","adservice","mem","2",180,120,300,0.127,TRUE,0.758
+"RE1-OB","OC-SVM","RE1-OB_adservice_mem_2","adservice","mem","2",180,120,300,0.963,TRUE,0.983
+"RE1-OB","PCA","RE1-OB_adservice_mem_3","adservice","mem","3",180,120,300,0,FALSE,0.758
+"RE1-OB","Isolation Forest","RE1-OB_adservice_mem_3","adservice","mem","3",180,120,300,0.007,FALSE,0.564
+"RE1-OB","OC-SVM","RE1-OB_adservice_mem_3","adservice","mem","3",180,120,300,0,FALSE,0.821
+"RE1-OB","PCA","RE1-OB_adservice_mem_4","adservice","mem","4",180,120,300,0.993,TRUE,1
+"RE1-OB","Isolation Forest","RE1-OB_adservice_mem_4","adservice","mem","4",180,120,300,0.36,TRUE,0.884
+"RE1-OB","OC-SVM","RE1-OB_adservice_mem_4","adservice","mem","4",180,120,300,0.96,TRUE,0.995
+"RE1-OB","PCA","RE1-OB_adservice_mem_5","adservice","mem","5",180,120,300,0.97,TRUE,0.998
+"RE1-OB","Isolation Forest","RE1-OB_adservice_mem_5","adservice","mem","5",180,120,300,0.013,FALSE,0.63
+"RE1-OB","OC-SVM","RE1-OB_adservice_mem_5","adservice","mem","5",180,120,300,0.97,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_cartservice_cpu_1","cartservice","cpu","1",180,120,300,0.967,TRUE,0.994
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_cpu_1","cartservice","cpu","1",180,120,300,0.023,FALSE,0.591
+"RE1-OB","OC-SVM","RE1-OB_cartservice_cpu_1","cartservice","cpu","1",180,120,300,0.967,TRUE,0.994
+"RE1-OB","PCA","RE1-OB_cartservice_cpu_2","cartservice","cpu","2",180,120,300,0.993,TRUE,1
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_cpu_2","cartservice","cpu","2",180,120,300,0.02,FALSE,0.741
+"RE1-OB","OC-SVM","RE1-OB_cartservice_cpu_2","cartservice","cpu","2",180,120,300,0.993,TRUE,1
+"RE1-OB","PCA","RE1-OB_cartservice_cpu_3","cartservice","cpu","3",180,120,300,0.087,FALSE,0.813
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_cpu_3","cartservice","cpu","3",180,120,300,0.01,FALSE,0.481
+"RE1-OB","OC-SVM","RE1-OB_cartservice_cpu_3","cartservice","cpu","3",180,120,300,0,FALSE,0.896
+"RE1-OB","PCA","RE1-OB_cartservice_cpu_4","cartservice","cpu","4",180,120,300,0.953,TRUE,0.992
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_cpu_4","cartservice","cpu","4",180,120,300,0.06,FALSE,0.892
+"RE1-OB","OC-SVM","RE1-OB_cartservice_cpu_4","cartservice","cpu","4",180,120,300,0.953,TRUE,0.98
+"RE1-OB","PCA","RE1-OB_cartservice_cpu_5","cartservice","cpu","5",180,120,300,1,TRUE,1
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_cpu_5","cartservice","cpu","5",180,120,300,0.03,FALSE,0.51
+"RE1-OB","OC-SVM","RE1-OB_cartservice_cpu_5","cartservice","cpu","5",180,120,300,0,FALSE,0.717
+"RE1-OB","PCA","RE1-OB_cartservice_delay_1","cartservice","delay","1",180,120,300,0.973,TRUE,0.98
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_delay_1","cartservice","delay","1",180,120,300,0.073,FALSE,0.902
+"RE1-OB","OC-SVM","RE1-OB_cartservice_delay_1","cartservice","delay","1",180,120,300,0.973,TRUE,0.988
+"RE1-OB","PCA","RE1-OB_cartservice_delay_2","cartservice","delay","2",180,120,300,0.967,TRUE,0.99
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_delay_2","cartservice","delay","2",180,120,300,0.793,TRUE,0.954
+"RE1-OB","OC-SVM","RE1-OB_cartservice_delay_2","cartservice","delay","2",180,120,300,0,FALSE,0.838
+"RE1-OB","PCA","RE1-OB_cartservice_delay_3","cartservice","delay","3",180,120,300,0.97,TRUE,0.984
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_delay_3","cartservice","delay","3",180,120,300,0.587,TRUE,0.953
+"RE1-OB","OC-SVM","RE1-OB_cartservice_delay_3","cartservice","delay","3",180,120,300,0.963,TRUE,0.978
+"RE1-OB","PCA","RE1-OB_cartservice_delay_4","cartservice","delay","4",180,120,300,0.98,TRUE,0.985
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_delay_4","cartservice","delay","4",180,120,300,0.003,FALSE,0.715
+"RE1-OB","OC-SVM","RE1-OB_cartservice_delay_4","cartservice","delay","4",180,120,300,0.98,TRUE,0.986
+"RE1-OB","PCA","RE1-OB_cartservice_delay_5","cartservice","delay","5",180,120,300,0.953,TRUE,0.97
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_delay_5","cartservice","delay","5",180,120,300,0.037,FALSE,0.861
+"RE1-OB","OC-SVM","RE1-OB_cartservice_delay_5","cartservice","delay","5",180,120,300,0.953,TRUE,0.968
+"RE1-OB","PCA","RE1-OB_cartservice_disk_1","cartservice","disk","1",180,120,300,1,TRUE,1
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_disk_1","cartservice","disk","1",180,120,300,0.903,TRUE,0.994
+"RE1-OB","OC-SVM","RE1-OB_cartservice_disk_1","cartservice","disk","1",180,120,300,1,TRUE,0.992
+"RE1-OB","PCA","RE1-OB_cartservice_disk_2","cartservice","disk","2",180,120,300,0.98,TRUE,0.988
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_disk_2","cartservice","disk","2",180,120,300,0.697,TRUE,0.938
+"RE1-OB","OC-SVM","RE1-OB_cartservice_disk_2","cartservice","disk","2",180,120,300,0.98,TRUE,0.99
+"RE1-OB","PCA","RE1-OB_cartservice_disk_3","cartservice","disk","3",180,120,300,0.977,TRUE,0.983
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_disk_3","cartservice","disk","3",180,120,300,0,FALSE,0.048
+"RE1-OB","OC-SVM","RE1-OB_cartservice_disk_3","cartservice","disk","3",180,120,300,0.977,TRUE,0.98
+"RE1-OB","PCA","RE1-OB_cartservice_disk_4","cartservice","disk","4",180,120,300,0.97,TRUE,0.986
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_disk_4","cartservice","disk","4",180,120,300,0.873,TRUE,0.962
+"RE1-OB","OC-SVM","RE1-OB_cartservice_disk_4","cartservice","disk","4",180,120,300,0.96,TRUE,0.975
+"RE1-OB","PCA","RE1-OB_cartservice_disk_5","cartservice","disk","5",180,120,300,0.987,TRUE,0.987
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_disk_5","cartservice","disk","5",180,120,300,0.86,TRUE,0.982
+"RE1-OB","OC-SVM","RE1-OB_cartservice_disk_5","cartservice","disk","5",180,120,300,0.983,TRUE,0.987
+"RE1-OB","PCA","RE1-OB_cartservice_mem_1","cartservice","mem","1",180,120,300,0.977,TRUE,0.995
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_mem_1","cartservice","mem","1",180,120,300,0.65,TRUE,0.963
+"RE1-OB","OC-SVM","RE1-OB_cartservice_mem_1","cartservice","mem","1",180,120,300,0,FALSE,0.926
+"RE1-OB","PCA","RE1-OB_cartservice_mem_2","cartservice","mem","2",180,120,300,0.96,TRUE,0.975
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_mem_2","cartservice","mem","2",180,120,300,0.05,FALSE,0.529
+"RE1-OB","OC-SVM","RE1-OB_cartservice_mem_2","cartservice","mem","2",180,120,300,0.96,TRUE,0.971
+"RE1-OB","PCA","RE1-OB_cartservice_mem_3","cartservice","mem","3",180,120,300,0.047,FALSE,0.876
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_mem_3","cartservice","mem","3",180,120,300,0.26,TRUE,0.908
+"RE1-OB","OC-SVM","RE1-OB_cartservice_mem_3","cartservice","mem","3",180,120,300,0,FALSE,0.928
+"RE1-OB","PCA","RE1-OB_cartservice_mem_4","cartservice","mem","4",180,120,300,0.99,TRUE,0.993
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_mem_4","cartservice","mem","4",180,120,300,0.1,TRUE,0.413
+"RE1-OB","OC-SVM","RE1-OB_cartservice_mem_4","cartservice","mem","4",180,120,300,0.99,TRUE,0.992
+"RE1-OB","PCA","RE1-OB_cartservice_mem_5","cartservice","mem","5",180,120,300,0.987,TRUE,0.996
+"RE1-OB","Isolation Forest","RE1-OB_cartservice_mem_5","cartservice","mem","5",180,120,300,0.427,TRUE,0.947
+"RE1-OB","OC-SVM","RE1-OB_cartservice_mem_5","cartservice","mem","5",180,120,300,0,FALSE,0.952
+"RE1-OB","PCA","RE1-OB_checkoutservice_cpu_1","checkoutservice","cpu","1",180,120,300,0.963,TRUE,0.978
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_cpu_1","checkoutservice","cpu","1",180,120,300,0.007,FALSE,0.211
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_cpu_1","checkoutservice","cpu","1",180,120,300,0,FALSE,0.776
+"RE1-OB","PCA","RE1-OB_checkoutservice_cpu_2","checkoutservice","cpu","2",180,120,300,0.933,TRUE,0.975
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_cpu_2","checkoutservice","cpu","2",180,120,300,0.007,FALSE,0.278
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_cpu_2","checkoutservice","cpu","2",180,120,300,0.933,TRUE,0.98
+"RE1-OB","PCA","RE1-OB_checkoutservice_cpu_3","checkoutservice","cpu","3",180,120,300,0.933,TRUE,0.943
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_cpu_3","checkoutservice","cpu","3",180,120,300,0.01,FALSE,0.263
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_cpu_3","checkoutservice","cpu","3",180,120,300,0,FALSE,0.766
+"RE1-OB","PCA","RE1-OB_checkoutservice_cpu_4","checkoutservice","cpu","4",180,120,300,0.337,TRUE,0.903
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_cpu_4","checkoutservice","cpu","4",180,120,300,0.01,FALSE,0.47
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_cpu_4","checkoutservice","cpu","4",180,120,300,0,FALSE,0.924
+"RE1-OB","PCA","RE1-OB_checkoutservice_cpu_5","checkoutservice","cpu","5",180,120,300,0.973,TRUE,0.986
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_cpu_5","checkoutservice","cpu","5",180,120,300,0,FALSE,0.615
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_cpu_5","checkoutservice","cpu","5",180,120,300,0.973,TRUE,0.986
+"RE1-OB","PCA","RE1-OB_checkoutservice_delay_1","checkoutservice","delay","1",180,120,300,0.983,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_delay_1","checkoutservice","delay","1",180,120,300,0.117,TRUE,0.887
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_delay_1","checkoutservice","delay","1",180,120,300,0.983,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_checkoutservice_delay_2","checkoutservice","delay","2",180,120,300,0.99,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_delay_2","checkoutservice","delay","2",180,120,300,0.69,TRUE,0.977
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_delay_2","checkoutservice","delay","2",180,120,300,0.993,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_checkoutservice_delay_3","checkoutservice","delay","3",180,120,300,0.117,TRUE,0.763
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_delay_3","checkoutservice","delay","3",180,120,300,0.623,TRUE,0.945
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_delay_3","checkoutservice","delay","3",180,120,300,0,FALSE,0.663
+"RE1-OB","PCA","RE1-OB_checkoutservice_delay_4","checkoutservice","delay","4",180,120,300,0.963,TRUE,0.997
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_delay_4","checkoutservice","delay","4",180,120,300,0.013,FALSE,0.636
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_delay_4","checkoutservice","delay","4",180,120,300,0.963,TRUE,0.987
+"RE1-OB","PCA","RE1-OB_checkoutservice_delay_5","checkoutservice","delay","5",180,120,300,0.953,TRUE,0.99
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_delay_5","checkoutservice","delay","5",180,120,300,0.15,TRUE,0.899
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_delay_5","checkoutservice","delay","5",180,120,300,0.95,TRUE,0.984
+"RE1-OB","PCA","RE1-OB_checkoutservice_disk_1","checkoutservice","disk","1",180,120,300,0.987,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_disk_1","checkoutservice","disk","1",180,120,300,0.033,FALSE,0.61
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_disk_1","checkoutservice","disk","1",180,120,300,0.993,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_checkoutservice_disk_2","checkoutservice","disk","2",180,120,300,0.91,TRUE,0.989
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_disk_2","checkoutservice","disk","2",180,120,300,0.337,TRUE,0.961
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_disk_2","checkoutservice","disk","2",180,120,300,0,FALSE,0.949
+"RE1-OB","PCA","RE1-OB_checkoutservice_disk_3","checkoutservice","disk","3",180,120,300,0.983,TRUE,0.992
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_disk_3","checkoutservice","disk","3",180,120,300,0.917,TRUE,0.977
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_disk_3","checkoutservice","disk","3",180,120,300,0.983,TRUE,0.991
+"RE1-OB","PCA","RE1-OB_checkoutservice_disk_4","checkoutservice","disk","4",180,120,300,0.127,TRUE,0.925
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_disk_4","checkoutservice","disk","4",180,120,300,0.007,FALSE,0.772
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_disk_4","checkoutservice","disk","4",180,120,300,0,FALSE,0.784
+"RE1-OB","PCA","RE1-OB_checkoutservice_disk_5","checkoutservice","disk","5",180,120,300,0.92,TRUE,0.972
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_disk_5","checkoutservice","disk","5",180,120,300,0.023,FALSE,0.714
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_disk_5","checkoutservice","disk","5",180,120,300,0,FALSE,0.787
+"RE1-OB","PCA","RE1-OB_checkoutservice_mem_1","checkoutservice","mem","1",180,120,300,0.98,TRUE,0.992
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_mem_1","checkoutservice","mem","1",180,120,300,0.003,FALSE,0.668
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_mem_1","checkoutservice","mem","1",180,120,300,0.98,TRUE,0.988
+"RE1-OB","PCA","RE1-OB_checkoutservice_mem_2","checkoutservice","mem","2",180,120,300,0.963,TRUE,0.98
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_mem_2","checkoutservice","mem","2",180,120,300,0.183,TRUE,0.916
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_mem_2","checkoutservice","mem","2",180,120,300,0.963,TRUE,0.989
+"RE1-OB","PCA","RE1-OB_checkoutservice_mem_3","checkoutservice","mem","3",180,120,300,1,TRUE,1
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_mem_3","checkoutservice","mem","3",180,120,300,0.48,TRUE,0.934
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_mem_3","checkoutservice","mem","3",180,120,300,1,TRUE,1
+"RE1-OB","PCA","RE1-OB_checkoutservice_mem_4","checkoutservice","mem","4",180,120,300,0.987,TRUE,0.997
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_mem_4","checkoutservice","mem","4",180,120,300,0.19,TRUE,0.899
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_mem_4","checkoutservice","mem","4",180,120,300,0,FALSE,0.952
+"RE1-OB","PCA","RE1-OB_checkoutservice_mem_5","checkoutservice","mem","5",180,120,300,0.3,TRUE,0.644
+"RE1-OB","Isolation Forest","RE1-OB_checkoutservice_mem_5","checkoutservice","mem","5",180,120,300,0.687,TRUE,0.953
+"RE1-OB","OC-SVM","RE1-OB_checkoutservice_mem_5","checkoutservice","mem","5",180,120,300,0,FALSE,0.684
+"RE1-OB","PCA","RE1-OB_currencyservice_cpu_1","currencyservice","cpu","1",180,120,300,0.037,FALSE,0.639
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_cpu_1","currencyservice","cpu","1",180,120,300,0.03,FALSE,0.709
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_cpu_1","currencyservice","cpu","1",180,120,300,0,FALSE,0.712
+"RE1-OB","PCA","RE1-OB_currencyservice_cpu_2","currencyservice","cpu","2",180,120,300,0.927,TRUE,0.992
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_cpu_2","currencyservice","cpu","2",180,120,300,0.013,FALSE,0.717
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_cpu_2","currencyservice","cpu","2",180,120,300,0.897,TRUE,0.991
+"RE1-OB","PCA","RE1-OB_currencyservice_cpu_3","currencyservice","cpu","3",180,120,300,0.163,TRUE,0.887
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_cpu_3","currencyservice","cpu","3",180,120,300,0.153,TRUE,0.877
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_cpu_3","currencyservice","cpu","3",180,120,300,0,FALSE,0.915
+"RE1-OB","PCA","RE1-OB_currencyservice_cpu_4","currencyservice","cpu","4",180,120,300,0.893,TRUE,0.937
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_cpu_4","currencyservice","cpu","4",180,120,300,0.02,FALSE,0.289
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_cpu_4","currencyservice","cpu","4",180,120,300,0,FALSE,0.753
+"RE1-OB","PCA","RE1-OB_currencyservice_cpu_5","currencyservice","cpu","5",180,120,300,0.893,TRUE,0.987
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_cpu_5","currencyservice","cpu","5",180,120,300,0.043,FALSE,0.569
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_cpu_5","currencyservice","cpu","5",180,120,300,0.82,TRUE,0.972
+"RE1-OB","PCA","RE1-OB_currencyservice_delay_1","currencyservice","delay","1",180,120,300,0.95,TRUE,0.961
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_delay_1","currencyservice","delay","1",180,120,300,0.56,TRUE,0.928
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_delay_1","currencyservice","delay","1",180,120,300,0,FALSE,0.907
+"RE1-OB","PCA","RE1-OB_currencyservice_delay_2","currencyservice","delay","2",180,120,300,0.983,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_delay_2","currencyservice","delay","2",180,120,300,0.267,TRUE,0.976
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_delay_2","currencyservice","delay","2",180,120,300,0,FALSE,0.979
+"RE1-OB","PCA","RE1-OB_currencyservice_delay_3","currencyservice","delay","3",180,120,300,0.97,TRUE,0.992
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_delay_3","currencyservice","delay","3",180,120,300,0.56,TRUE,0.939
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_delay_3","currencyservice","delay","3",180,120,300,0,FALSE,0.838
+"RE1-OB","PCA","RE1-OB_currencyservice_delay_4","currencyservice","delay","4",180,120,300,0.973,TRUE,0.99
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_delay_4","currencyservice","delay","4",180,120,300,0.89,TRUE,0.987
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_delay_4","currencyservice","delay","4",180,120,300,0,FALSE,0.629
+"RE1-OB","PCA","RE1-OB_currencyservice_delay_5","currencyservice","delay","5",180,120,300,0.963,TRUE,0.981
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_delay_5","currencyservice","delay","5",180,120,300,0.903,TRUE,0.986
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_delay_5","currencyservice","delay","5",180,120,300,0.963,TRUE,0.98
+"RE1-OB","PCA","RE1-OB_currencyservice_disk_1","currencyservice","disk","1",180,120,300,0.967,TRUE,0.984
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_disk_1","currencyservice","disk","1",180,120,300,0.923,TRUE,0.979
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_disk_1","currencyservice","disk","1",180,120,300,0.96,TRUE,0.979
+"RE1-OB","PCA","RE1-OB_currencyservice_disk_2","currencyservice","disk","2",180,120,300,0.893,TRUE,0.983
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_disk_2","currencyservice","disk","2",180,120,300,0.43,TRUE,0.964
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_disk_2","currencyservice","disk","2",180,120,300,0,FALSE,0.914
+"RE1-OB","PCA","RE1-OB_currencyservice_disk_3","currencyservice","disk","3",180,120,300,0.85,TRUE,0.982
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_disk_3","currencyservice","disk","3",180,120,300,0.923,TRUE,0.981
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_disk_3","currencyservice","disk","3",180,120,300,0,FALSE,0.935
+"RE1-OB","PCA","RE1-OB_currencyservice_disk_4","currencyservice","disk","4",180,120,300,0.87,TRUE,0.965
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_disk_4","currencyservice","disk","4",180,120,300,0.237,TRUE,0.907
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_disk_4","currencyservice","disk","4",180,120,300,0,FALSE,0.898
+"RE1-OB","PCA","RE1-OB_currencyservice_disk_5","currencyservice","disk","5",180,120,300,0.957,TRUE,0.996
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_disk_5","currencyservice","disk","5",180,120,300,0.273,TRUE,0.903
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_disk_5","currencyservice","disk","5",180,120,300,0.95,TRUE,0.99
+"RE1-OB","PCA","RE1-OB_currencyservice_mem_1","currencyservice","mem","1",180,120,300,0.977,TRUE,0.989
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_mem_1","currencyservice","mem","1",180,120,300,0.94,TRUE,0.99
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_mem_1","currencyservice","mem","1",180,120,300,0.977,TRUE,0.992
+"RE1-OB","PCA","RE1-OB_currencyservice_mem_2","currencyservice","mem","2",180,120,300,0.417,TRUE,0.743
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_mem_2","currencyservice","mem","2",180,120,300,0.98,TRUE,0.997
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_mem_2","currencyservice","mem","2",180,120,300,0,FALSE,0.59
+"RE1-OB","PCA","RE1-OB_currencyservice_mem_3","currencyservice","mem","3",180,120,300,0.903,TRUE,0.97
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_mem_3","currencyservice","mem","3",180,120,300,0.98,TRUE,0.998
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_mem_3","currencyservice","mem","3",180,120,300,0,FALSE,0.871
+"RE1-OB","PCA","RE1-OB_currencyservice_mem_4","currencyservice","mem","4",180,120,300,0.967,TRUE,0.993
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_mem_4","currencyservice","mem","4",180,120,300,0.39,TRUE,0.98
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_mem_4","currencyservice","mem","4",180,120,300,0,FALSE,0.925
+"RE1-OB","PCA","RE1-OB_currencyservice_mem_5","currencyservice","mem","5",180,120,300,1,TRUE,1
+"RE1-OB","Isolation Forest","RE1-OB_currencyservice_mem_5","currencyservice","mem","5",180,120,300,0.553,TRUE,0.929
+"RE1-OB","OC-SVM","RE1-OB_currencyservice_mem_5","currencyservice","mem","5",180,120,300,0.99,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_productcatalogservice_cpu_1","productcatalogservice","cpu","1",180,120,300,0.973,TRUE,0.995
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_cpu_1","productcatalogservice","cpu","1",180,120,300,0.003,FALSE,0.325
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_cpu_1","productcatalogservice","cpu","1",180,120,300,0.973,TRUE,0.991
+"RE1-OB","PCA","RE1-OB_productcatalogservice_cpu_2","productcatalogservice","cpu","2",180,120,300,0,FALSE,0.511
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_cpu_2","productcatalogservice","cpu","2",180,120,300,0.01,FALSE,0.67
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_cpu_2","productcatalogservice","cpu","2",180,120,300,0,FALSE,0.742
+"RE1-OB","PCA","RE1-OB_productcatalogservice_cpu_3","productcatalogservice","cpu","3",180,120,300,0.89,TRUE,0.987
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_cpu_3","productcatalogservice","cpu","3",180,120,300,0.007,FALSE,0.683
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_cpu_3","productcatalogservice","cpu","3",180,120,300,0,FALSE,0.975
+"RE1-OB","PCA","RE1-OB_productcatalogservice_cpu_4","productcatalogservice","cpu","4",180,120,300,0,FALSE,0.487
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_cpu_4","productcatalogservice","cpu","4",180,120,300,0.013,FALSE,0.681
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_cpu_4","productcatalogservice","cpu","4",180,120,300,0,FALSE,0.717
+"RE1-OB","PCA","RE1-OB_productcatalogservice_cpu_5","productcatalogservice","cpu","5",180,120,300,0.973,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_cpu_5","productcatalogservice","cpu","5",180,120,300,0.227,TRUE,0.942
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_cpu_5","productcatalogservice","cpu","5",180,120,300,0.973,TRUE,0.981
+"RE1-OB","PCA","RE1-OB_productcatalogservice_delay_1","productcatalogservice","delay","1",180,120,300,0.203,TRUE,0.873
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_delay_1","productcatalogservice","delay","1",180,120,300,0.95,TRUE,0.993
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_delay_1","productcatalogservice","delay","1",180,120,300,0,FALSE,0.916
+"RE1-OB","PCA","RE1-OB_productcatalogservice_delay_2","productcatalogservice","delay","2",180,120,300,0,FALSE,0.908
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_delay_2","productcatalogservice","delay","2",180,120,300,0.88,TRUE,0.969
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_delay_2","productcatalogservice","delay","2",180,120,300,0,FALSE,0.952
+"RE1-OB","PCA","RE1-OB_productcatalogservice_delay_3","productcatalogservice","delay","3",180,120,300,0.977,TRUE,0.999
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_delay_3","productcatalogservice","delay","3",180,120,300,0.943,TRUE,0.993
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_delay_3","productcatalogservice","delay","3",180,120,300,0.96,TRUE,0.999
+"RE1-OB","PCA","RE1-OB_productcatalogservice_delay_4","productcatalogservice","delay","4",180,120,300,0.97,TRUE,0.982
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_delay_4","productcatalogservice","delay","4",180,120,300,0.913,TRUE,0.986
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_delay_4","productcatalogservice","delay","4",180,120,300,0,FALSE,0.852
+"RE1-OB","PCA","RE1-OB_productcatalogservice_delay_5","productcatalogservice","delay","5",180,120,300,0.967,TRUE,0.993
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_delay_5","productcatalogservice","delay","5",180,120,300,0.883,TRUE,0.966
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_delay_5","productcatalogservice","delay","5",180,120,300,0.967,TRUE,0.99
+"RE1-OB","PCA","RE1-OB_productcatalogservice_disk_1","productcatalogservice","disk","1",180,120,300,0.94,TRUE,0.967
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_disk_1","productcatalogservice","disk","1",180,120,300,0.573,TRUE,0.895
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_disk_1","productcatalogservice","disk","1",180,120,300,0,FALSE,0.928
+"RE1-OB","PCA","RE1-OB_productcatalogservice_disk_2","productcatalogservice","disk","2",180,120,300,0.953,TRUE,0.973
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_disk_2","productcatalogservice","disk","2",180,120,300,0.717,TRUE,0.965
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_disk_2","productcatalogservice","disk","2",180,120,300,0.94,TRUE,0.975
+"RE1-OB","PCA","RE1-OB_productcatalogservice_disk_3","productcatalogservice","disk","3",180,120,300,0.927,TRUE,0.985
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_disk_3","productcatalogservice","disk","3",180,120,300,0.573,TRUE,0.929
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_disk_3","productcatalogservice","disk","3",180,120,300,0,FALSE,0.914
+"RE1-OB","PCA","RE1-OB_productcatalogservice_disk_4","productcatalogservice","disk","4",180,120,300,0.977,TRUE,0.983
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_disk_4","productcatalogservice","disk","4",180,120,300,0.32,TRUE,0.949
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_disk_4","productcatalogservice","disk","4",180,120,300,0.977,TRUE,0.983
+"RE1-OB","PCA","RE1-OB_productcatalogservice_disk_5","productcatalogservice","disk","5",180,120,300,0.947,TRUE,0.979
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_disk_5","productcatalogservice","disk","5",180,120,300,0.93,TRUE,0.979
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_disk_5","productcatalogservice","disk","5",180,120,300,0.963,TRUE,0.984
+"RE1-OB","PCA","RE1-OB_productcatalogservice_mem_1","productcatalogservice","mem","1",180,120,300,0.557,TRUE,0.813
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_mem_1","productcatalogservice","mem","1",180,120,300,0.987,TRUE,0.999
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_mem_1","productcatalogservice","mem","1",180,120,300,0,FALSE,0.583
+"RE1-OB","PCA","RE1-OB_productcatalogservice_mem_2","productcatalogservice","mem","2",180,120,300,0.973,TRUE,0.997
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_mem_2","productcatalogservice","mem","2",180,120,300,0.913,TRUE,0.993
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_mem_2","productcatalogservice","mem","2",180,120,300,0,FALSE,0.725
+"RE1-OB","PCA","RE1-OB_productcatalogservice_mem_3","productcatalogservice","mem","3",180,120,300,0.98,TRUE,0.989
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_mem_3","productcatalogservice","mem","3",180,120,300,0.943,TRUE,0.975
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_mem_3","productcatalogservice","mem","3",180,120,300,0.98,TRUE,0.985
+"RE1-OB","PCA","RE1-OB_productcatalogservice_mem_4","productcatalogservice","mem","4",180,120,300,0.963,TRUE,0.994
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_mem_4","productcatalogservice","mem","4",180,120,300,0.947,TRUE,0.986
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_mem_4","productcatalogservice","mem","4",180,120,300,0.963,TRUE,0.993
+"RE1-OB","PCA","RE1-OB_productcatalogservice_mem_5","productcatalogservice","mem","5",180,120,300,0.957,TRUE,0.985
+"RE1-OB","Isolation Forest","RE1-OB_productcatalogservice_mem_5","productcatalogservice","mem","5",180,120,300,0.107,TRUE,0.589
+"RE1-OB","OC-SVM","RE1-OB_productcatalogservice_mem_5","productcatalogservice","mem","5",180,120,300,0.957,TRUE,0.985
+"RE1-SS","PCA","RE1-SS_carts_cpu_1","carts","cpu","1",180,120,300,0.273,TRUE,0.972
+"RE1-SS","Isolation Forest","RE1-SS_carts_cpu_1","carts","cpu","1",180,120,300,0.337,TRUE,0.913
+"RE1-SS","OC-SVM","RE1-SS_carts_cpu_1","carts","cpu","1",180,120,300,0,FALSE,0.742
+"RE1-SS","PCA","RE1-SS_carts_cpu_2","carts","cpu","2",180,120,300,0.61,TRUE,0.979
+"RE1-SS","Isolation Forest","RE1-SS_carts_cpu_2","carts","cpu","2",180,120,300,0.01,FALSE,0.747
+"RE1-SS","OC-SVM","RE1-SS_carts_cpu_2","carts","cpu","2",180,120,300,0,FALSE,0.671
+"RE1-SS","PCA","RE1-SS_carts_cpu_3","carts","cpu","3",180,120,300,0.68,TRUE,0.839
+"RE1-SS","Isolation Forest","RE1-SS_carts_cpu_3","carts","cpu","3",180,120,300,0.48,TRUE,0.945
+"RE1-SS","OC-SVM","RE1-SS_carts_cpu_3","carts","cpu","3",180,120,300,0,FALSE,0.667
+"RE1-SS","PCA","RE1-SS_carts_cpu_4","carts","cpu","4",180,120,300,0.843,TRUE,0.987
+"RE1-SS","Isolation Forest","RE1-SS_carts_cpu_4","carts","cpu","4",180,120,300,0.083,FALSE,0.856
+"RE1-SS","OC-SVM","RE1-SS_carts_cpu_4","carts","cpu","4",180,120,300,0,FALSE,0.758
+"RE1-SS","PCA","RE1-SS_carts_cpu_5","carts","cpu","5",180,120,300,0,FALSE,0.858
+"RE1-SS","Isolation Forest","RE1-SS_carts_cpu_5","carts","cpu","5",180,120,300,0.383,TRUE,0.944
+"RE1-SS","OC-SVM","RE1-SS_carts_cpu_5","carts","cpu","5",180,120,300,0,FALSE,0.925
+"RE1-SS","PCA","RE1-SS_carts_delay_1","carts","delay","1",180,120,300,0.96,TRUE,0.977
+"RE1-SS","Isolation Forest","RE1-SS_carts_delay_1","carts","delay","1",180,120,300,0.947,TRUE,0.991
+"RE1-SS","OC-SVM","RE1-SS_carts_delay_1","carts","delay","1",180,120,300,0,FALSE,0.744
+"RE1-SS","PCA","RE1-SS_carts_delay_2","carts","delay","2",180,120,300,0.957,TRUE,0.983
+"RE1-SS","Isolation Forest","RE1-SS_carts_delay_2","carts","delay","2",180,120,300,0.917,TRUE,0.987
+"RE1-SS","OC-SVM","RE1-SS_carts_delay_2","carts","delay","2",180,120,300,0,FALSE,0.596
+"RE1-SS","PCA","RE1-SS_carts_delay_3","carts","delay","3",180,120,300,0.983,TRUE,0.996
+"RE1-SS","Isolation Forest","RE1-SS_carts_delay_3","carts","delay","3",180,120,300,0.933,TRUE,0.987
+"RE1-SS","OC-SVM","RE1-SS_carts_delay_3","carts","delay","3",180,120,300,0.983,TRUE,0.997
+"RE1-SS","PCA","RE1-SS_carts_delay_4","carts","delay","4",180,120,300,0.953,TRUE,0.984
+"RE1-SS","Isolation Forest","RE1-SS_carts_delay_4","carts","delay","4",180,120,300,0.927,TRUE,0.976
+"RE1-SS","OC-SVM","RE1-SS_carts_delay_4","carts","delay","4",180,120,300,0,FALSE,0.6
+"RE1-SS","PCA","RE1-SS_carts_delay_5","carts","delay","5",180,120,300,0.973,TRUE,0.983
+"RE1-SS","Isolation Forest","RE1-SS_carts_delay_5","carts","delay","5",180,120,300,0.913,TRUE,0.988
+"RE1-SS","OC-SVM","RE1-SS_carts_delay_5","carts","delay","5",180,120,300,0,FALSE,0.5
+"RE1-SS","PCA","RE1-SS_carts_disk_1","carts","disk","1",180,120,300,0.993,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_carts_disk_1","carts","disk","1",180,120,300,0.877,TRUE,0.975
+"RE1-SS","OC-SVM","RE1-SS_carts_disk_1","carts","disk","1",180,120,300,0,FALSE,0.533
+"RE1-SS","PCA","RE1-SS_carts_disk_2","carts","disk","2",180,120,300,0.993,TRUE,0.997
+"RE1-SS","Isolation Forest","RE1-SS_carts_disk_2","carts","disk","2",180,120,300,0.26,TRUE,0.883
+"RE1-SS","OC-SVM","RE1-SS_carts_disk_2","carts","disk","2",180,120,300,0.993,TRUE,0.997
+"RE1-SS","PCA","RE1-SS_carts_disk_3","carts","disk","3",180,120,300,0.923,TRUE,0.98
+"RE1-SS","Isolation Forest","RE1-SS_carts_disk_3","carts","disk","3",180,120,300,0.467,TRUE,0.937
+"RE1-SS","OC-SVM","RE1-SS_carts_disk_3","carts","disk","3",180,120,300,0,FALSE,0.717
+"RE1-SS","PCA","RE1-SS_carts_disk_4","carts","disk","4",180,120,300,0.247,TRUE,0.525
+"RE1-SS","Isolation Forest","RE1-SS_carts_disk_4","carts","disk","4",180,120,300,0.12,TRUE,0.814
+"RE1-SS","OC-SVM","RE1-SS_carts_disk_4","carts","disk","4",180,120,300,0,FALSE,0.504
+"RE1-SS","PCA","RE1-SS_carts_disk_5","carts","disk","5",180,120,300,0.973,TRUE,0.992
+"RE1-SS","Isolation Forest","RE1-SS_carts_disk_5","carts","disk","5",180,120,300,0.197,TRUE,0.896
+"RE1-SS","OC-SVM","RE1-SS_carts_disk_5","carts","disk","5",180,120,300,0,FALSE,0.832
+"RE1-SS","PCA","RE1-SS_carts_mem_1","carts","mem","1",180,120,300,0.903,TRUE,0.982
+"RE1-SS","Isolation Forest","RE1-SS_carts_mem_1","carts","mem","1",180,120,300,0.797,TRUE,0.948
+"RE1-SS","OC-SVM","RE1-SS_carts_mem_1","carts","mem","1",180,120,300,0,FALSE,0.65
+"RE1-SS","PCA","RE1-SS_carts_mem_2","carts","mem","2",180,120,300,0.95,TRUE,0.979
+"RE1-SS","Isolation Forest","RE1-SS_carts_mem_2","carts","mem","2",180,120,300,0.65,TRUE,0.949
+"RE1-SS","OC-SVM","RE1-SS_carts_mem_2","carts","mem","2",180,120,300,0,FALSE,0.625
+"RE1-SS","PCA","RE1-SS_carts_mem_3","carts","mem","3",180,120,300,0.823,TRUE,0.936
+"RE1-SS","Isolation Forest","RE1-SS_carts_mem_3","carts","mem","3",180,120,300,0.69,TRUE,0.966
+"RE1-SS","OC-SVM","RE1-SS_carts_mem_3","carts","mem","3",180,120,300,0,FALSE,0.5
+"RE1-SS","PCA","RE1-SS_carts_mem_4","carts","mem","4",180,120,300,0.547,TRUE,0.916
+"RE1-SS","Isolation Forest","RE1-SS_carts_mem_4","carts","mem","4",180,120,300,0.96,TRUE,0.988
+"RE1-SS","OC-SVM","RE1-SS_carts_mem_4","carts","mem","4",180,120,300,0,FALSE,0.712
+"RE1-SS","PCA","RE1-SS_carts_mem_5","carts","mem","5",180,120,300,0,FALSE,0.305
+"RE1-SS","Isolation Forest","RE1-SS_carts_mem_5","carts","mem","5",180,120,300,0.937,TRUE,0.986
+"RE1-SS","OC-SVM","RE1-SS_carts_mem_5","carts","mem","5",180,120,300,0,FALSE,0.604
+"RE1-SS","PCA","RE1-SS_catalogue_cpu_1","catalogue","cpu","1",180,120,300,0.99,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_cpu_1","catalogue","cpu","1",180,120,300,0.097,FALSE,0.795
+"RE1-SS","OC-SVM","RE1-SS_catalogue_cpu_1","catalogue","cpu","1",180,120,300,0,FALSE,0.683
+"RE1-SS","PCA","RE1-SS_catalogue_cpu_2","catalogue","cpu","2",180,120,300,0.443,TRUE,0.945
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_cpu_2","catalogue","cpu","2",180,120,300,0.06,FALSE,0.629
+"RE1-SS","OC-SVM","RE1-SS_catalogue_cpu_2","catalogue","cpu","2",180,120,300,0,FALSE,0.823
+"RE1-SS","PCA","RE1-SS_catalogue_cpu_3","catalogue","cpu","3",180,120,300,0.993,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_cpu_3","catalogue","cpu","3",180,120,300,0.023,FALSE,0.771
+"RE1-SS","OC-SVM","RE1-SS_catalogue_cpu_3","catalogue","cpu","3",180,120,300,0,FALSE,0.575
+"RE1-SS","PCA","RE1-SS_catalogue_cpu_4","catalogue","cpu","4",180,120,300,0.9,TRUE,0.991
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_cpu_4","catalogue","cpu","4",180,120,300,0.247,TRUE,0.832
+"RE1-SS","OC-SVM","RE1-SS_catalogue_cpu_4","catalogue","cpu","4",180,120,300,0,FALSE,0.733
+"RE1-SS","PCA","RE1-SS_catalogue_cpu_5","catalogue","cpu","5",180,120,300,0,FALSE,0.212
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_cpu_5","catalogue","cpu","5",180,120,300,0.307,TRUE,0.919
+"RE1-SS","OC-SVM","RE1-SS_catalogue_cpu_5","catalogue","cpu","5",180,120,300,0,FALSE,0.596
+"RE1-SS","PCA","RE1-SS_catalogue_delay_1","catalogue","delay","1",180,120,300,0.97,TRUE,0.995
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_delay_1","catalogue","delay","1",180,120,300,0.057,FALSE,0.765
+"RE1-SS","OC-SVM","RE1-SS_catalogue_delay_1","catalogue","delay","1",180,120,300,0,FALSE,0.721
+"RE1-SS","PCA","RE1-SS_catalogue_delay_2","catalogue","delay","2",180,120,300,0.987,TRUE,0.998
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_delay_2","catalogue","delay","2",180,120,300,0.057,FALSE,0.925
+"RE1-SS","OC-SVM","RE1-SS_catalogue_delay_2","catalogue","delay","2",180,120,300,0,FALSE,0.933
+"RE1-SS","PCA","RE1-SS_catalogue_delay_3","catalogue","delay","3",180,120,300,0.967,TRUE,0.992
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_delay_3","catalogue","delay","3",180,120,300,0.51,TRUE,0.938
+"RE1-SS","OC-SVM","RE1-SS_catalogue_delay_3","catalogue","delay","3",180,120,300,0,FALSE,0.596
+"RE1-SS","PCA","RE1-SS_catalogue_delay_4","catalogue","delay","4",180,120,300,0.977,TRUE,0.996
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_delay_4","catalogue","delay","4",180,120,300,0.49,TRUE,0.964
+"RE1-SS","OC-SVM","RE1-SS_catalogue_delay_4","catalogue","delay","4",180,120,300,0,FALSE,0.562
+"RE1-SS","PCA","RE1-SS_catalogue_delay_5","catalogue","delay","5",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_delay_5","catalogue","delay","5",180,120,300,0.167,TRUE,0.909
+"RE1-SS","OC-SVM","RE1-SS_catalogue_delay_5","catalogue","delay","5",180,120,300,0,FALSE,0.571
+"RE1-SS","PCA","RE1-SS_catalogue_disk_1","catalogue","disk","1",180,120,300,0.993,TRUE,0.999
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_disk_1","catalogue","disk","1",180,120,300,0.623,TRUE,0.966
+"RE1-SS","OC-SVM","RE1-SS_catalogue_disk_1","catalogue","disk","1",180,120,300,0,FALSE,0.5
+"RE1-SS","PCA","RE1-SS_catalogue_disk_2","catalogue","disk","2",180,120,300,0.857,TRUE,0.983
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_disk_2","catalogue","disk","2",180,120,300,0.473,TRUE,0.92
+"RE1-SS","OC-SVM","RE1-SS_catalogue_disk_2","catalogue","disk","2",180,120,300,0,FALSE,0.629
+"RE1-SS","PCA","RE1-SS_catalogue_disk_3","catalogue","disk","3",180,120,287,0.714,TRUE,0.856
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_disk_3","catalogue","disk","3",180,120,287,0.404,TRUE,0.883
+"RE1-SS","OC-SVM","RE1-SS_catalogue_disk_3","catalogue","disk","3",180,120,287,0,FALSE,0.579
+"RE1-SS","PCA","RE1-SS_catalogue_disk_4","catalogue","disk","4",180,120,300,0.957,TRUE,0.998
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_disk_4","catalogue","disk","4",180,120,300,0.07,FALSE,0.579
+"RE1-SS","OC-SVM","RE1-SS_catalogue_disk_4","catalogue","disk","4",180,120,300,0,FALSE,0.625
+"RE1-SS","PCA","RE1-SS_catalogue_disk_5","catalogue","disk","5",180,120,300,0.97,TRUE,0.993
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_disk_5","catalogue","disk","5",180,120,300,0.227,TRUE,0.872
+"RE1-SS","OC-SVM","RE1-SS_catalogue_disk_5","catalogue","disk","5",180,120,300,0,FALSE,0.808
+"RE1-SS","PCA","RE1-SS_catalogue_mem_1","catalogue","mem","1",180,120,300,0.4,TRUE,0.7
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_mem_1","catalogue","mem","1",180,120,300,0.703,TRUE,0.982
+"RE1-SS","OC-SVM","RE1-SS_catalogue_mem_1","catalogue","mem","1",180,120,300,0,FALSE,0.712
+"RE1-SS","PCA","RE1-SS_catalogue_mem_2","catalogue","mem","2",180,120,300,0.987,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_mem_2","catalogue","mem","2",180,120,300,0.903,TRUE,0.984
+"RE1-SS","OC-SVM","RE1-SS_catalogue_mem_2","catalogue","mem","2",180,120,300,0,FALSE,0.571
+"RE1-SS","PCA","RE1-SS_catalogue_mem_3","catalogue","mem","3",180,120,300,0.983,TRUE,0.999
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_mem_3","catalogue","mem","3",180,120,300,0.657,TRUE,0.968
+"RE1-SS","OC-SVM","RE1-SS_catalogue_mem_3","catalogue","mem","3",180,120,300,0,FALSE,0.708
+"RE1-SS","PCA","RE1-SS_catalogue_mem_4","catalogue","mem","4",180,120,300,0.97,TRUE,0.995
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_mem_4","catalogue","mem","4",180,120,300,0.77,TRUE,0.957
+"RE1-SS","OC-SVM","RE1-SS_catalogue_mem_4","catalogue","mem","4",180,120,300,0,FALSE,0.742
+"RE1-SS","PCA","RE1-SS_catalogue_mem_5","catalogue","mem","5",180,120,300,0.99,TRUE,0.995
+"RE1-SS","Isolation Forest","RE1-SS_catalogue_mem_5","catalogue","mem","5",180,120,300,0.563,TRUE,0.961
+"RE1-SS","OC-SVM","RE1-SS_catalogue_mem_5","catalogue","mem","5",180,120,300,0,FALSE,0.537
+"RE1-SS","PCA","RE1-SS_orders_cpu_1","orders","cpu","1",180,120,300,0,FALSE,0.656
+"RE1-SS","Isolation Forest","RE1-SS_orders_cpu_1","orders","cpu","1",180,120,300,0.22,TRUE,0.865
+"RE1-SS","OC-SVM","RE1-SS_orders_cpu_1","orders","cpu","1",180,120,300,0,FALSE,0.771
+"RE1-SS","PCA","RE1-SS_orders_cpu_2","orders","cpu","2",180,120,300,0.05,FALSE,0.651
+"RE1-SS","Isolation Forest","RE1-SS_orders_cpu_2","orders","cpu","2",180,120,300,0.253,TRUE,0.898
+"RE1-SS","OC-SVM","RE1-SS_orders_cpu_2","orders","cpu","2",180,120,300,0,FALSE,0.775
+"RE1-SS","PCA","RE1-SS_orders_cpu_3","orders","cpu","3",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_orders_cpu_3","orders","cpu","3",180,120,300,0.703,TRUE,0.944
+"RE1-SS","OC-SVM","RE1-SS_orders_cpu_3","orders","cpu","3",180,120,300,0,FALSE,0.542
+"RE1-SS","PCA","RE1-SS_orders_cpu_4","orders","cpu","4",180,120,300,0,FALSE,0.616
+"RE1-SS","Isolation Forest","RE1-SS_orders_cpu_4","orders","cpu","4",180,120,300,0.087,FALSE,0.747
+"RE1-SS","OC-SVM","RE1-SS_orders_cpu_4","orders","cpu","4",180,120,300,0,FALSE,0.745
+"RE1-SS","PCA","RE1-SS_orders_cpu_5","orders","cpu","5",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_orders_cpu_5","orders","cpu","5",180,120,300,0.087,FALSE,0.802
+"RE1-SS","OC-SVM","RE1-SS_orders_cpu_5","orders","cpu","5",180,120,300,0,FALSE,0.512
+"RE1-SS","PCA","RE1-SS_orders_delay_1","orders","delay","1",180,120,300,0.963,TRUE,0.999
+"RE1-SS","Isolation Forest","RE1-SS_orders_delay_1","orders","delay","1",180,120,300,0.793,TRUE,0.987
+"RE1-SS","OC-SVM","RE1-SS_orders_delay_1","orders","delay","1",180,120,300,0,FALSE,0.608
+"RE1-SS","PCA","RE1-SS_orders_delay_2","orders","delay","2",180,120,300,0.953,TRUE,0.978
+"RE1-SS","Isolation Forest","RE1-SS_orders_delay_2","orders","delay","2",180,120,300,0.527,TRUE,0.933
+"RE1-SS","OC-SVM","RE1-SS_orders_delay_2","orders","delay","2",180,120,300,0,FALSE,0.663
+"RE1-SS","PCA","RE1-SS_orders_delay_3","orders","delay","3",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_orders_delay_3","orders","delay","3",180,120,300,0.41,TRUE,0.97
+"RE1-SS","OC-SVM","RE1-SS_orders_delay_3","orders","delay","3",180,120,300,1,TRUE,1
+"RE1-SS","PCA","RE1-SS_orders_delay_4","orders","delay","4",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_orders_delay_4","orders","delay","4",180,120,300,0.957,TRUE,0.987
+"RE1-SS","OC-SVM","RE1-SS_orders_delay_4","orders","delay","4",180,120,300,0,FALSE,0.8
+"RE1-SS","PCA","RE1-SS_orders_delay_5","orders","delay","5",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_orders_delay_5","orders","delay","5",180,120,300,0.847,TRUE,0.978
+"RE1-SS","OC-SVM","RE1-SS_orders_delay_5","orders","delay","5",180,120,300,0,FALSE,0.579
+"RE1-SS","PCA","RE1-SS_orders_disk_1","orders","disk","1",180,120,300,0.96,TRUE,0.994
+"RE1-SS","Isolation Forest","RE1-SS_orders_disk_1","orders","disk","1",180,120,300,0.407,TRUE,0.92
+"RE1-SS","OC-SVM","RE1-SS_orders_disk_1","orders","disk","1",180,120,300,0,FALSE,0.688
+"RE1-SS","PCA","RE1-SS_orders_disk_2","orders","disk","2",180,120,300,0,FALSE,0.889
+"RE1-SS","Isolation Forest","RE1-SS_orders_disk_2","orders","disk","2",180,120,300,0.233,TRUE,0.834
+"RE1-SS","OC-SVM","RE1-SS_orders_disk_2","orders","disk","2",180,120,300,0,FALSE,0.751
+"RE1-SS","PCA","RE1-SS_orders_disk_3","orders","disk","3",180,120,300,0.993,TRUE,0.999
+"RE1-SS","Isolation Forest","RE1-SS_orders_disk_3","orders","disk","3",180,120,300,0.113,TRUE,0.902
+"RE1-SS","OC-SVM","RE1-SS_orders_disk_3","orders","disk","3",180,120,300,0.993,TRUE,0.999
+"RE1-SS","PCA","RE1-SS_orders_disk_4","orders","disk","4",180,120,300,0.973,TRUE,0.991
+"RE1-SS","Isolation Forest","RE1-SS_orders_disk_4","orders","disk","4",180,120,300,0.027,FALSE,0.769
+"RE1-SS","OC-SVM","RE1-SS_orders_disk_4","orders","disk","4",180,120,300,0,FALSE,0.738
+"RE1-SS","PCA","RE1-SS_orders_disk_5","orders","disk","5",180,120,300,0.99,TRUE,0.996
+"RE1-SS","Isolation Forest","RE1-SS_orders_disk_5","orders","disk","5",180,120,300,0.327,TRUE,0.91
+"RE1-SS","OC-SVM","RE1-SS_orders_disk_5","orders","disk","5",180,120,300,0,FALSE,0.984
+"RE1-SS","PCA","RE1-SS_orders_mem_1","orders","mem","1",180,120,300,0.583,TRUE,0.848
+"RE1-SS","Isolation Forest","RE1-SS_orders_mem_1","orders","mem","1",180,120,300,0.817,TRUE,0.983
+"RE1-SS","OC-SVM","RE1-SS_orders_mem_1","orders","mem","1",180,120,300,0,FALSE,0.671
+"RE1-SS","PCA","RE1-SS_orders_mem_2","orders","mem","2",180,120,300,0.74,TRUE,0.938
+"RE1-SS","Isolation Forest","RE1-SS_orders_mem_2","orders","mem","2",180,120,300,0.877,TRUE,0.976
+"RE1-SS","OC-SVM","RE1-SS_orders_mem_2","orders","mem","2",180,120,300,0,FALSE,0.529
+"RE1-SS","PCA","RE1-SS_orders_mem_3","orders","mem","3",180,120,300,0.85,TRUE,0.934
+"RE1-SS","Isolation Forest","RE1-SS_orders_mem_3","orders","mem","3",180,120,300,0.813,TRUE,0.977
+"RE1-SS","OC-SVM","RE1-SS_orders_mem_3","orders","mem","3",180,120,300,0,FALSE,0.575
+"RE1-SS","PCA","RE1-SS_orders_mem_4","orders","mem","4",180,120,300,0.643,TRUE,0.966
+"RE1-SS","Isolation Forest","RE1-SS_orders_mem_4","orders","mem","4",180,120,300,0.713,TRUE,0.958
+"RE1-SS","OC-SVM","RE1-SS_orders_mem_4","orders","mem","4",180,120,300,0,FALSE,0.759
+"RE1-SS","PCA","RE1-SS_orders_mem_5","orders","mem","5",180,120,300,0.953,TRUE,0.984
+"RE1-SS","Isolation Forest","RE1-SS_orders_mem_5","orders","mem","5",180,120,300,0.44,TRUE,0.934
+"RE1-SS","OC-SVM","RE1-SS_orders_mem_5","orders","mem","5",180,120,300,0,FALSE,0.7
+"RE1-SS","PCA","RE1-SS_payment_cpu_1","payment","cpu","1",180,120,300,0.97,TRUE,0.989
+"RE1-SS","Isolation Forest","RE1-SS_payment_cpu_1","payment","cpu","1",180,120,300,0.14,TRUE,0.636
+"RE1-SS","OC-SVM","RE1-SS_payment_cpu_1","payment","cpu","1",180,120,300,0,FALSE,0.554
+"RE1-SS","PCA","RE1-SS_payment_cpu_2","payment","cpu","2",180,120,300,0.97,TRUE,0.985
+"RE1-SS","Isolation Forest","RE1-SS_payment_cpu_2","payment","cpu","2",180,120,300,0.043,FALSE,0.809
+"RE1-SS","OC-SVM","RE1-SS_payment_cpu_2","payment","cpu","2",180,120,300,0,FALSE,0.688
+"RE1-SS","PCA","RE1-SS_payment_cpu_3","payment","cpu","3",180,120,300,0.987,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_payment_cpu_3","payment","cpu","3",180,120,300,0.573,TRUE,0.974
+"RE1-SS","OC-SVM","RE1-SS_payment_cpu_3","payment","cpu","3",180,120,300,0,FALSE,0.579
+"RE1-SS","PCA","RE1-SS_payment_cpu_4","payment","cpu","4",180,120,300,0.95,TRUE,0.995
+"RE1-SS","Isolation Forest","RE1-SS_payment_cpu_4","payment","cpu","4",180,120,300,0.627,TRUE,0.932
+"RE1-SS","OC-SVM","RE1-SS_payment_cpu_4","payment","cpu","4",180,120,300,0,FALSE,0.546
+"RE1-SS","PCA","RE1-SS_payment_cpu_5","payment","cpu","5",180,120,300,0,FALSE,0.675
+"RE1-SS","Isolation Forest","RE1-SS_payment_cpu_5","payment","cpu","5",180,120,300,0.053,FALSE,0.83
+"RE1-SS","OC-SVM","RE1-SS_payment_cpu_5","payment","cpu","5",180,120,300,0,FALSE,0.817
+"RE1-SS","PCA","RE1-SS_payment_delay_1","payment","delay","1",180,120,300,0.967,TRUE,0.989
+"RE1-SS","Isolation Forest","RE1-SS_payment_delay_1","payment","delay","1",180,120,300,0.183,TRUE,0.872
+"RE1-SS","OC-SVM","RE1-SS_payment_delay_1","payment","delay","1",180,120,300,0,FALSE,0.783
+"RE1-SS","PCA","RE1-SS_payment_delay_2","payment","delay","2",180,120,300,0.767,TRUE,0.908
+"RE1-SS","Isolation Forest","RE1-SS_payment_delay_2","payment","delay","2",180,120,300,0.24,TRUE,0.919
+"RE1-SS","OC-SVM","RE1-SS_payment_delay_2","payment","delay","2",180,120,300,0,FALSE,0.642
+"RE1-SS","PCA","RE1-SS_payment_delay_3","payment","delay","3",180,120,300,0.97,TRUE,0.989
+"RE1-SS","Isolation Forest","RE1-SS_payment_delay_3","payment","delay","3",180,120,300,0.333,TRUE,0.873
+"RE1-SS","OC-SVM","RE1-SS_payment_delay_3","payment","delay","3",180,120,300,0.97,TRUE,0.99
+"RE1-SS","PCA","RE1-SS_payment_delay_4","payment","delay","4",180,120,300,0.63,TRUE,0.892
+"RE1-SS","Isolation Forest","RE1-SS_payment_delay_4","payment","delay","4",180,120,300,0.183,TRUE,0.868
+"RE1-SS","OC-SVM","RE1-SS_payment_delay_4","payment","delay","4",180,120,300,0,FALSE,0.521
+"RE1-SS","PCA","RE1-SS_payment_delay_5","payment","delay","5",180,120,300,0,FALSE,0.357
+"RE1-SS","Isolation Forest","RE1-SS_payment_delay_5","payment","delay","5",180,120,300,0.527,TRUE,0.936
+"RE1-SS","OC-SVM","RE1-SS_payment_delay_5","payment","delay","5",180,120,300,0,FALSE,0.617
+"RE1-SS","PCA","RE1-SS_payment_disk_1","payment","disk","1",180,120,300,0.987,TRUE,0.995
+"RE1-SS","Isolation Forest","RE1-SS_payment_disk_1","payment","disk","1",180,120,300,0.207,TRUE,0.92
+"RE1-SS","OC-SVM","RE1-SS_payment_disk_1","payment","disk","1",180,120,300,0,FALSE,0.608
+"RE1-SS","PCA","RE1-SS_payment_disk_2","payment","disk","2",180,120,300,0.997,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_payment_disk_2","payment","disk","2",180,120,300,0.733,TRUE,0.963
+"RE1-SS","OC-SVM","RE1-SS_payment_disk_2","payment","disk","2",180,120,300,0,FALSE,0.5
+"RE1-SS","PCA","RE1-SS_payment_disk_3","payment","disk","3",180,120,300,0.783,TRUE,0.845
+"RE1-SS","Isolation Forest","RE1-SS_payment_disk_3","payment","disk","3",180,120,300,0.677,TRUE,0.914
+"RE1-SS","OC-SVM","RE1-SS_payment_disk_3","payment","disk","3",180,120,300,0,FALSE,0.642
+"RE1-SS","PCA","RE1-SS_payment_disk_4","payment","disk","4",180,120,300,0.997,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_payment_disk_4","payment","disk","4",180,120,300,0.04,FALSE,0.818
+"RE1-SS","OC-SVM","RE1-SS_payment_disk_4","payment","disk","4",180,120,300,0,FALSE,0.504
+"RE1-SS","PCA","RE1-SS_payment_disk_5","payment","disk","5",180,120,300,0.11,TRUE,0.774
+"RE1-SS","Isolation Forest","RE1-SS_payment_disk_5","payment","disk","5",180,120,300,0.223,TRUE,0.89
+"RE1-SS","OC-SVM","RE1-SS_payment_disk_5","payment","disk","5",180,120,300,0,FALSE,0.75
+"RE1-SS","PCA","RE1-SS_payment_mem_1","payment","mem","1",180,120,300,0.957,TRUE,0.991
+"RE1-SS","Isolation Forest","RE1-SS_payment_mem_1","payment","mem","1",180,120,300,0.953,TRUE,0.99
+"RE1-SS","OC-SVM","RE1-SS_payment_mem_1","payment","mem","1",180,120,300,0,FALSE,0.738
+"RE1-SS","PCA","RE1-SS_payment_mem_2","payment","mem","2",180,120,300,0.98,TRUE,0.995
+"RE1-SS","Isolation Forest","RE1-SS_payment_mem_2","payment","mem","2",180,120,300,0.757,TRUE,0.964
+"RE1-SS","OC-SVM","RE1-SS_payment_mem_2","payment","mem","2",180,120,300,0,FALSE,0.562
+"RE1-SS","PCA","RE1-SS_payment_mem_3","payment","mem","3",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_payment_mem_3","payment","mem","3",180,120,300,0.953,TRUE,0.983
+"RE1-SS","OC-SVM","RE1-SS_payment_mem_3","payment","mem","3",180,120,300,0,FALSE,0.575
+"RE1-SS","PCA","RE1-SS_payment_mem_4","payment","mem","4",180,120,300,0.987,TRUE,0.995
+"RE1-SS","Isolation Forest","RE1-SS_payment_mem_4","payment","mem","4",180,120,300,0.817,TRUE,0.962
+"RE1-SS","OC-SVM","RE1-SS_payment_mem_4","payment","mem","4",180,120,300,0,FALSE,0.712
+"RE1-SS","PCA","RE1-SS_payment_mem_5","payment","mem","5",180,120,300,0.983,TRUE,0.994
+"RE1-SS","Isolation Forest","RE1-SS_payment_mem_5","payment","mem","5",180,120,300,0.967,TRUE,0.991
+"RE1-SS","OC-SVM","RE1-SS_payment_mem_5","payment","mem","5",180,120,300,0,FALSE,0.818
+"RE1-SS","PCA","RE1-SS_user_cpu_1","user","cpu","1",180,120,300,0.973,TRUE,0.99
+"RE1-SS","Isolation Forest","RE1-SS_user_cpu_1","user","cpu","1",180,120,300,0.67,TRUE,0.964
+"RE1-SS","OC-SVM","RE1-SS_user_cpu_1","user","cpu","1",180,120,300,0,FALSE,0.667
+"RE1-SS","PCA","RE1-SS_user_cpu_2","user","cpu","2",180,120,300,0.79,TRUE,0.958
+"RE1-SS","Isolation Forest","RE1-SS_user_cpu_2","user","cpu","2",180,120,300,0.163,TRUE,0.87
+"RE1-SS","OC-SVM","RE1-SS_user_cpu_2","user","cpu","2",180,120,300,0,FALSE,0.667
+"RE1-SS","PCA","RE1-SS_user_cpu_3","user","cpu","3",180,120,300,0.973,TRUE,0.988
+"RE1-SS","Isolation Forest","RE1-SS_user_cpu_3","user","cpu","3",180,120,300,0.16,TRUE,0.888
+"RE1-SS","OC-SVM","RE1-SS_user_cpu_3","user","cpu","3",180,120,300,0,FALSE,0.508
+"RE1-SS","PCA","RE1-SS_user_cpu_4","user","cpu","4",180,120,300,0.977,TRUE,0.998
+"RE1-SS","Isolation Forest","RE1-SS_user_cpu_4","user","cpu","4",180,120,300,0.65,TRUE,0.979
+"RE1-SS","OC-SVM","RE1-SS_user_cpu_4","user","cpu","4",180,120,300,0.977,TRUE,0.998
+"RE1-SS","PCA","RE1-SS_user_cpu_5","user","cpu","5",180,120,300,0.97,TRUE,0.999
+"RE1-SS","Isolation Forest","RE1-SS_user_cpu_5","user","cpu","5",180,120,300,0.197,TRUE,0.845
+"RE1-SS","OC-SVM","RE1-SS_user_cpu_5","user","cpu","5",180,120,300,0,FALSE,0.633
+"RE1-SS","PCA","RE1-SS_user_delay_1","user","delay","1",180,120,300,1,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_user_delay_1","user","delay","1",180,120,300,0.947,TRUE,0.98
+"RE1-SS","OC-SVM","RE1-SS_user_delay_1","user","delay","1",180,120,300,0,FALSE,0.817
+"RE1-SS","PCA","RE1-SS_user_delay_2","user","delay","2",180,120,300,0.97,TRUE,0.986
+"RE1-SS","Isolation Forest","RE1-SS_user_delay_2","user","delay","2",180,120,300,0.837,TRUE,0.991
+"RE1-SS","OC-SVM","RE1-SS_user_delay_2","user","delay","2",180,120,300,0,FALSE,0.504
+"RE1-SS","PCA","RE1-SS_user_delay_3","user","delay","3",180,120,300,0.967,TRUE,0.997
+"RE1-SS","Isolation Forest","RE1-SS_user_delay_3","user","delay","3",180,120,300,0.963,TRUE,0.995
+"RE1-SS","OC-SVM","RE1-SS_user_delay_3","user","delay","3",180,120,300,0,FALSE,0.55
+"RE1-SS","PCA","RE1-SS_user_delay_4","user","delay","4",180,120,300,0.377,TRUE,0.979
+"RE1-SS","Isolation Forest","RE1-SS_user_delay_4","user","delay","4",180,120,300,0.847,TRUE,0.981
+"RE1-SS","OC-SVM","RE1-SS_user_delay_4","user","delay","4",180,120,300,0,FALSE,0.725
+"RE1-SS","PCA","RE1-SS_user_delay_5","user","delay","5",180,120,300,0.853,TRUE,0.978
+"RE1-SS","Isolation Forest","RE1-SS_user_delay_5","user","delay","5",180,120,300,0.67,TRUE,0.975
+"RE1-SS","OC-SVM","RE1-SS_user_delay_5","user","delay","5",180,120,300,0,FALSE,0.5
+"RE1-SS","PCA","RE1-SS_user_disk_1","user","disk","1",180,120,300,0.993,TRUE,1
+"RE1-SS","Isolation Forest","RE1-SS_user_disk_1","user","disk","1",180,120,300,0.417,TRUE,0.962
+"RE1-SS","OC-SVM","RE1-SS_user_disk_1","user","disk","1",180,120,300,0,FALSE,0.604
+"RE1-SS","PCA","RE1-SS_user_disk_2","user","disk","2",180,120,300,0.79,TRUE,0.973
+"RE1-SS","Isolation Forest","RE1-SS_user_disk_2","user","disk","2",180,120,300,0.043,FALSE,0.83
+"RE1-SS","OC-SVM","RE1-SS_user_disk_2","user","disk","2",180,120,300,0,FALSE,0.679
+"RE1-SS","PCA","RE1-SS_user_disk_3","user","disk","3",180,120,300,0.91,TRUE,0.97
+"RE1-SS","Isolation Forest","RE1-SS_user_disk_3","user","disk","3",180,120,300,0.227,TRUE,0.93
+"RE1-SS","OC-SVM","RE1-SS_user_disk_3","user","disk","3",180,120,300,0,FALSE,0.779
+"RE1-SS","PCA","RE1-SS_user_disk_4","user","disk","4",180,120,300,0.153,TRUE,0.929
+"RE1-SS","Isolation Forest","RE1-SS_user_disk_4","user","disk","4",180,120,300,0.187,TRUE,0.855
+"RE1-SS","OC-SVM","RE1-SS_user_disk_4","user","disk","4",180,120,300,0,FALSE,0.957
+"RE1-SS","PCA","RE1-SS_user_disk_5","user","disk","5",180,120,300,0.817,TRUE,0.974
+"RE1-SS","Isolation Forest","RE1-SS_user_disk_5","user","disk","5",180,120,300,0.317,TRUE,0.967
+"RE1-SS","OC-SVM","RE1-SS_user_disk_5","user","disk","5",180,120,300,0,FALSE,0.654
+"RE1-SS","PCA","RE1-SS_user_mem_1","user","mem","1",180,120,247,0.98,TRUE,0.99
+"RE1-SS","Isolation Forest","RE1-SS_user_mem_1","user","mem","1",180,120,247,0.964,TRUE,0.994
+"RE1-SS","OC-SVM","RE1-SS_user_mem_1","user","mem","1",180,120,247,0,FALSE,0.637
+"RE1-SS","PCA","RE1-SS_user_mem_2","user","mem","2",180,120,300,0.977,TRUE,0.986
+"RE1-SS","Isolation Forest","RE1-SS_user_mem_2","user","mem","2",180,120,300,0.953,TRUE,0.983
+"RE1-SS","OC-SVM","RE1-SS_user_mem_2","user","mem","2",180,120,300,0,FALSE,0.512
+"RE1-SS","PCA","RE1-SS_user_mem_3","user","mem","3",180,120,300,0.98,TRUE,0.99
+"RE1-SS","Isolation Forest","RE1-SS_user_mem_3","user","mem","3",180,120,300,0.877,TRUE,0.977
+"RE1-SS","OC-SVM","RE1-SS_user_mem_3","user","mem","3",180,120,300,0,FALSE,0.742
+"RE1-SS","PCA","RE1-SS_user_mem_4","user","mem","4",180,120,300,0.97,TRUE,0.989
+"RE1-SS","Isolation Forest","RE1-SS_user_mem_4","user","mem","4",180,120,300,0.947,TRUE,0.981
+"RE1-SS","OC-SVM","RE1-SS_user_mem_4","user","mem","4",180,120,300,0,FALSE,0.521
+"RE1-SS","PCA","RE1-SS_user_mem_5","user","mem","5",180,120,300,0,FALSE,0.097
+"RE1-SS","Isolation Forest","RE1-SS_user_mem_5","user","mem","5",180,120,300,0.807,TRUE,0.977
+"RE1-SS","OC-SVM","RE1-SS_user_mem_5","user","mem","5",180,120,300,0,FALSE,0.521
+"RE1-TT","PCA","RE1-TT_ts-auth-service_cpu_1","ts-auth-service","cpu","1",180,120,300,1,TRUE,0.998
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_cpu_1","ts-auth-service","cpu","1",180,120,300,0.24,TRUE,0.648
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_cpu_1","ts-auth-service","cpu","1",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-auth-service_cpu_2","ts-auth-service","cpu","2",180,120,300,0.877,TRUE,0.989
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_cpu_2","ts-auth-service","cpu","2",180,120,300,0.207,TRUE,0.789
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_cpu_2","ts-auth-service","cpu","2",180,120,300,0,FALSE,0.583
+"RE1-TT","PCA","RE1-TT_ts-auth-service_cpu_3","ts-auth-service","cpu","3",180,120,300,0.073,FALSE,0.775
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_cpu_3","ts-auth-service","cpu","3",180,120,300,0.027,FALSE,0.413
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_cpu_3","ts-auth-service","cpu","3",180,120,300,0,FALSE,0.537
+"RE1-TT","PCA","RE1-TT_ts-auth-service_cpu_4","ts-auth-service","cpu","4",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_cpu_4","ts-auth-service","cpu","4",180,120,300,0.303,TRUE,0.812
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_cpu_4","ts-auth-service","cpu","4",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-auth-service_cpu_5","ts-auth-service","cpu","5",180,120,300,0.73,TRUE,0.946
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_cpu_5","ts-auth-service","cpu","5",180,120,300,0.277,TRUE,0.861
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_cpu_5","ts-auth-service","cpu","5",180,120,300,0,FALSE,0.504
+"RE1-TT","PCA","RE1-TT_ts-auth-service_delay_1","ts-auth-service","delay","1",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_delay_1","ts-auth-service","delay","1",180,120,300,0.077,FALSE,0.739
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_delay_1","ts-auth-service","delay","1",180,120,300,0,FALSE,0.571
+"RE1-TT","PCA","RE1-TT_ts-auth-service_delay_2","ts-auth-service","delay","2",180,120,300,0,FALSE,0.795
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_delay_2","ts-auth-service","delay","2",180,120,300,0.183,TRUE,0.868
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_delay_2","ts-auth-service","delay","2",180,120,300,0,FALSE,0.621
+"RE1-TT","PCA","RE1-TT_ts-auth-service_delay_3","ts-auth-service","delay","3",180,120,300,0.167,TRUE,0.665
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_delay_3","ts-auth-service","delay","3",180,120,300,0.003,FALSE,0.484
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_delay_3","ts-auth-service","delay","3",180,120,300,0,FALSE,0.55
+"RE1-TT","PCA","RE1-TT_ts-auth-service_delay_4","ts-auth-service","delay","4",180,120,300,0.663,TRUE,0.938
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_delay_4","ts-auth-service","delay","4",180,120,300,0.083,FALSE,0.635
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_delay_4","ts-auth-service","delay","4",180,120,300,0,FALSE,0.504
+"RE1-TT","PCA","RE1-TT_ts-auth-service_delay_5","ts-auth-service","delay","5",180,120,300,0.74,TRUE,0.984
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_delay_5","ts-auth-service","delay","5",180,120,300,0.477,TRUE,0.88
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_delay_5","ts-auth-service","delay","5",180,120,300,0,FALSE,0.562
+"RE1-TT","PCA","RE1-TT_ts-auth-service_disk_1","ts-auth-service","disk","1",180,120,300,0.987,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_disk_1","ts-auth-service","disk","1",180,120,300,0.333,TRUE,0.955
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_disk_1","ts-auth-service","disk","1",180,120,300,0,FALSE,0.529
+"RE1-TT","PCA","RE1-TT_ts-auth-service_disk_2","ts-auth-service","disk","2",180,120,300,0.967,TRUE,0.998
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_disk_2","ts-auth-service","disk","2",180,120,300,0.11,TRUE,0.813
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_disk_2","ts-auth-service","disk","2",180,120,300,0,FALSE,0.613
+"RE1-TT","PCA","RE1-TT_ts-auth-service_disk_3","ts-auth-service","disk","3",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_disk_3","ts-auth-service","disk","3",180,120,300,0.3,TRUE,0.916
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_disk_3","ts-auth-service","disk","3",180,120,300,0,FALSE,0.579
+"RE1-TT","PCA","RE1-TT_ts-auth-service_disk_4","ts-auth-service","disk","4",180,120,300,0.98,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_disk_4","ts-auth-service","disk","4",180,120,300,0.673,TRUE,0.952
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_disk_4","ts-auth-service","disk","4",180,120,300,0,FALSE,0.629
+"RE1-TT","PCA","RE1-TT_ts-auth-service_disk_5","ts-auth-service","disk","5",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_disk_5","ts-auth-service","disk","5",180,120,300,0.283,TRUE,0.903
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_disk_5","ts-auth-service","disk","5",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-auth-service_mem_1","ts-auth-service","mem","1",180,120,300,0.973,TRUE,0.987
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_mem_1","ts-auth-service","mem","1",180,120,300,0.727,TRUE,0.952
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_mem_1","ts-auth-service","mem","1",180,120,300,0,FALSE,0.517
+"RE1-TT","PCA","RE1-TT_ts-auth-service_mem_2","ts-auth-service","mem","2",180,120,300,0.957,TRUE,0.976
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_mem_2","ts-auth-service","mem","2",180,120,300,0.677,TRUE,0.971
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_mem_2","ts-auth-service","mem","2",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-auth-service_mem_3","ts-auth-service","mem","3",180,120,300,0.917,TRUE,0.988
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_mem_3","ts-auth-service","mem","3",180,120,300,0.623,TRUE,0.933
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_mem_3","ts-auth-service","mem","3",180,120,300,0,FALSE,0.529
+"RE1-TT","PCA","RE1-TT_ts-auth-service_mem_4","ts-auth-service","mem","4",180,120,300,0,FALSE,0.208
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_mem_4","ts-auth-service","mem","4",180,120,300,0.62,TRUE,0.919
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_mem_4","ts-auth-service","mem","4",180,120,300,0,FALSE,0.517
+"RE1-TT","PCA","RE1-TT_ts-auth-service_mem_5","ts-auth-service","mem","5",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-auth-service_mem_5","ts-auth-service","mem","5",180,120,300,0.467,TRUE,0.964
+"RE1-TT","OC-SVM","RE1-TT_ts-auth-service_mem_5","ts-auth-service","mem","5",180,120,300,0,FALSE,0.542
+"RE1-TT","PCA","RE1-TT_ts-order-service_cpu_1","ts-order-service","cpu","1",180,120,300,0.453,TRUE,0.883
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_cpu_1","ts-order-service","cpu","1",180,120,300,0.077,FALSE,0.808
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_cpu_1","ts-order-service","cpu","1",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-order-service_cpu_2","ts-order-service","cpu","2",180,120,300,0.1,TRUE,0.819
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_cpu_2","ts-order-service","cpu","2",180,120,300,0.053,FALSE,0.66
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_cpu_2","ts-order-service","cpu","2",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-order-service_cpu_3","ts-order-service","cpu","3",180,120,300,0.527,TRUE,0.937
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_cpu_3","ts-order-service","cpu","3",180,120,300,0.167,TRUE,0.792
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_cpu_3","ts-order-service","cpu","3",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-order-service_cpu_4","ts-order-service","cpu","4",180,120,300,0.583,TRUE,0.903
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_cpu_4","ts-order-service","cpu","4",180,120,300,0.283,TRUE,0.777
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_cpu_4","ts-order-service","cpu","4",180,120,300,0,FALSE,0.637
+"RE1-TT","PCA","RE1-TT_ts-order-service_cpu_5","ts-order-service","cpu","5",180,120,300,0.343,TRUE,0.923
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_cpu_5","ts-order-service","cpu","5",180,120,300,0.02,FALSE,0.628
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_cpu_5","ts-order-service","cpu","5",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-order-service_delay_1","ts-order-service","delay","1",180,120,300,0.97,TRUE,0.997
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_delay_1","ts-order-service","delay","1",180,120,300,0.37,TRUE,0.871
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_delay_1","ts-order-service","delay","1",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-order-service_delay_2","ts-order-service","delay","2",180,120,300,0.98,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_delay_2","ts-order-service","delay","2",180,120,300,0.087,FALSE,0.747
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_delay_2","ts-order-service","delay","2",180,120,300,0,FALSE,0.537
+"RE1-TT","PCA","RE1-TT_ts-order-service_delay_3","ts-order-service","delay","3",180,120,300,0.967,TRUE,0.996
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_delay_3","ts-order-service","delay","3",180,120,300,0.107,TRUE,0.733
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_delay_3","ts-order-service","delay","3",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-order-service_delay_4","ts-order-service","delay","4",180,120,300,0.983,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_delay_4","ts-order-service","delay","4",180,120,300,0.097,FALSE,0.775
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_delay_4","ts-order-service","delay","4",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-order-service_delay_5","ts-order-service","delay","5",180,120,300,0,FALSE,0.47
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_delay_5","ts-order-service","delay","5",180,120,300,0.027,FALSE,0.603
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_delay_5","ts-order-service","delay","5",180,120,300,0,FALSE,0.579
+"RE1-TT","PCA","RE1-TT_ts-order-service_disk_1","ts-order-service","disk","1",180,120,300,0.993,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_disk_1","ts-order-service","disk","1",180,120,300,0.137,TRUE,0.885
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_disk_1","ts-order-service","disk","1",180,120,300,0,FALSE,0.537
+"RE1-TT","PCA","RE1-TT_ts-order-service_disk_2","ts-order-service","disk","2",180,120,300,0.953,TRUE,0.993
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_disk_2","ts-order-service","disk","2",180,120,300,0.553,TRUE,0.94
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_disk_2","ts-order-service","disk","2",180,120,300,0,FALSE,0.592
+"RE1-TT","PCA","RE1-TT_ts-order-service_disk_3","ts-order-service","disk","3",180,120,300,0.97,TRUE,0.994
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_disk_3","ts-order-service","disk","3",180,120,300,0.063,FALSE,0.782
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_disk_3","ts-order-service","disk","3",180,120,300,0,FALSE,0.525
+"RE1-TT","PCA","RE1-TT_ts-order-service_disk_4","ts-order-service","disk","4",180,120,300,0.957,TRUE,0.987
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_disk_4","ts-order-service","disk","4",180,120,300,0.073,FALSE,0.72
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_disk_4","ts-order-service","disk","4",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-order-service_disk_5","ts-order-service","disk","5",180,120,300,0.98,TRUE,0.998
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_disk_5","ts-order-service","disk","5",180,120,300,0.04,FALSE,0.607
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_disk_5","ts-order-service","disk","5",180,120,300,0,FALSE,0.533
+"RE1-TT","PCA","RE1-TT_ts-order-service_mem_1","ts-order-service","mem","1",180,120,300,0.343,TRUE,0.973
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_mem_1","ts-order-service","mem","1",180,120,300,0.47,TRUE,0.928
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_mem_1","ts-order-service","mem","1",180,120,300,0,FALSE,0.525
+"RE1-TT","PCA","RE1-TT_ts-order-service_mem_2","ts-order-service","mem","2",180,120,300,0,FALSE,0.668
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_mem_2","ts-order-service","mem","2",180,120,300,0.28,TRUE,0.836
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_mem_2","ts-order-service","mem","2",180,120,300,0,FALSE,0.521
+"RE1-TT","PCA","RE1-TT_ts-order-service_mem_3","ts-order-service","mem","3",180,120,300,0.327,TRUE,0.916
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_mem_3","ts-order-service","mem","3",180,120,300,0.617,TRUE,0.884
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_mem_3","ts-order-service","mem","3",180,120,300,0,FALSE,0.504
+"RE1-TT","PCA","RE1-TT_ts-order-service_mem_4","ts-order-service","mem","4",180,120,300,0,FALSE,0.783
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_mem_4","ts-order-service","mem","4",180,120,300,0.487,TRUE,0.932
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_mem_4","ts-order-service","mem","4",180,120,300,0,FALSE,0.521
+"RE1-TT","PCA","RE1-TT_ts-order-service_mem_5","ts-order-service","mem","5",180,120,300,0.987,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-order-service_mem_5","ts-order-service","mem","5",180,120,300,0.54,TRUE,0.947
+"RE1-TT","OC-SVM","RE1-TT_ts-order-service_mem_5","ts-order-service","mem","5",180,120,300,0,FALSE,0.525
+"RE1-TT","PCA","RE1-TT_ts-route-service_cpu_1","ts-route-service","cpu","1",180,120,300,0.937,TRUE,0.988
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_cpu_1","ts-route-service","cpu","1",180,120,300,0.02,FALSE,0.804
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_cpu_1","ts-route-service","cpu","1",180,120,300,0,FALSE,0.575
+"RE1-TT","PCA","RE1-TT_ts-route-service_cpu_2","ts-route-service","cpu","2",180,120,300,0.997,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_cpu_2","ts-route-service","cpu","2",180,120,300,0.45,TRUE,0.932
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_cpu_2","ts-route-service","cpu","2",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-route-service_cpu_3","ts-route-service","cpu","3",180,120,300,0.197,TRUE,0.509
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_cpu_3","ts-route-service","cpu","3",180,120,300,0.017,FALSE,0.554
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_cpu_3","ts-route-service","cpu","3",180,120,300,0,FALSE,0.567
+"RE1-TT","PCA","RE1-TT_ts-route-service_cpu_4","ts-route-service","cpu","4",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_cpu_4","ts-route-service","cpu","4",180,120,300,0.357,TRUE,0.892
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_cpu_4","ts-route-service","cpu","4",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-route-service_cpu_5","ts-route-service","cpu","5",180,120,300,0.967,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_cpu_5","ts-route-service","cpu","5",180,120,300,0.147,TRUE,0.692
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_cpu_5","ts-route-service","cpu","5",180,120,300,0,FALSE,0.592
+"RE1-TT","PCA","RE1-TT_ts-route-service_delay_1","ts-route-service","delay","1",180,120,300,0.473,TRUE,0.776
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_delay_1","ts-route-service","delay","1",180,120,300,0.833,TRUE,0.977
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_delay_1","ts-route-service","delay","1",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-route-service_delay_2","ts-route-service","delay","2",180,120,300,0.01,FALSE,0.942
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_delay_2","ts-route-service","delay","2",180,120,300,0.94,TRUE,0.984
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_delay_2","ts-route-service","delay","2",180,120,300,0,FALSE,0.658
+"RE1-TT","PCA","RE1-TT_ts-route-service_delay_3","ts-route-service","delay","3",180,120,300,0.977,TRUE,0.996
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_delay_3","ts-route-service","delay","3",180,120,300,0.363,TRUE,0.878
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_delay_3","ts-route-service","delay","3",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-route-service_delay_4","ts-route-service","delay","4",180,120,300,0.88,TRUE,0.981
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_delay_4","ts-route-service","delay","4",180,120,300,0.697,TRUE,0.92
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_delay_4","ts-route-service","delay","4",180,120,300,0,FALSE,0.546
+"RE1-TT","PCA","RE1-TT_ts-route-service_delay_5","ts-route-service","delay","5",180,120,300,0.313,TRUE,0.824
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_delay_5","ts-route-service","delay","5",180,120,300,0.71,TRUE,0.951
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_delay_5","ts-route-service","delay","5",180,120,300,0,FALSE,0.575
+"RE1-TT","PCA","RE1-TT_ts-route-service_disk_1","ts-route-service","disk","1",180,120,300,0.783,TRUE,0.96
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_disk_1","ts-route-service","disk","1",180,120,300,0.07,FALSE,0.81
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_disk_1","ts-route-service","disk","1",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-route-service_disk_2","ts-route-service","disk","2",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_disk_2","ts-route-service","disk","2",180,120,300,0.12,TRUE,0.815
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_disk_2","ts-route-service","disk","2",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-route-service_disk_3","ts-route-service","disk","3",180,120,300,0.993,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_disk_3","ts-route-service","disk","3",180,120,300,0.99,TRUE,0.999
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_disk_3","ts-route-service","disk","3",180,120,300,0,FALSE,0.525
+"RE1-TT","PCA","RE1-TT_ts-route-service_disk_4","ts-route-service","disk","4",180,120,300,0.923,TRUE,0.978
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_disk_4","ts-route-service","disk","4",180,120,300,0.747,TRUE,0.947
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_disk_4","ts-route-service","disk","4",180,120,300,0,FALSE,0.529
+"RE1-TT","PCA","RE1-TT_ts-route-service_disk_5","ts-route-service","disk","5",180,120,300,0.96,TRUE,0.99
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_disk_5","ts-route-service","disk","5",180,120,300,0.103,TRUE,0.884
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_disk_5","ts-route-service","disk","5",180,120,300,0,FALSE,0.596
+"RE1-TT","PCA","RE1-TT_ts-route-service_mem_1","ts-route-service","mem","1",180,120,300,0.353,TRUE,0.957
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_mem_1","ts-route-service","mem","1",180,120,300,0.423,TRUE,0.972
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_mem_1","ts-route-service","mem","1",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-route-service_mem_2","ts-route-service","mem","2",180,120,300,0.07,FALSE,0.839
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_mem_2","ts-route-service","mem","2",180,120,300,0.933,TRUE,0.973
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_mem_2","ts-route-service","mem","2",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-route-service_mem_3","ts-route-service","mem","3",180,120,300,0.98,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_mem_3","ts-route-service","mem","3",180,120,300,0.263,TRUE,0.876
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_mem_3","ts-route-service","mem","3",180,120,300,0,FALSE,0.571
+"RE1-TT","PCA","RE1-TT_ts-route-service_mem_4","ts-route-service","mem","4",180,120,300,0.723,TRUE,0.986
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_mem_4","ts-route-service","mem","4",180,120,300,0.597,TRUE,0.89
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_mem_4","ts-route-service","mem","4",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-route-service_mem_5","ts-route-service","mem","5",180,120,300,0.983,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-route-service_mem_5","ts-route-service","mem","5",180,120,300,0.013,FALSE,0.851
+"RE1-TT","OC-SVM","RE1-TT_ts-route-service_mem_5","ts-route-service","mem","5",180,120,300,0,FALSE,0.542
+"RE1-TT","PCA","RE1-TT_ts-train-service_cpu_1","ts-train-service","cpu","1",180,120,300,1,TRUE,0.998
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_cpu_1","ts-train-service","cpu","1",180,120,300,0.233,TRUE,0.894
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_cpu_1","ts-train-service","cpu","1",180,120,300,0,FALSE,0.517
+"RE1-TT","PCA","RE1-TT_ts-train-service_cpu_2","ts-train-service","cpu","2",180,120,300,0.187,TRUE,0.722
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_cpu_2","ts-train-service","cpu","2",180,120,300,0.28,TRUE,0.807
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_cpu_2","ts-train-service","cpu","2",180,120,300,0,FALSE,0.504
+"RE1-TT","PCA","RE1-TT_ts-train-service_cpu_3","ts-train-service","cpu","3",180,120,300,0.123,TRUE,0.578
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_cpu_3","ts-train-service","cpu","3",180,120,300,0.077,FALSE,0.74
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_cpu_3","ts-train-service","cpu","3",180,120,300,0,FALSE,0.6
+"RE1-TT","PCA","RE1-TT_ts-train-service_cpu_4","ts-train-service","cpu","4",180,120,300,0.06,FALSE,0.59
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_cpu_4","ts-train-service","cpu","4",180,120,300,0.047,FALSE,0.748
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_cpu_4","ts-train-service","cpu","4",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-train-service_cpu_5","ts-train-service","cpu","5",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_cpu_5","ts-train-service","cpu","5",180,120,300,0.173,TRUE,0.833
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_cpu_5","ts-train-service","cpu","5",180,120,300,0,FALSE,0.55
+"RE1-TT","PCA","RE1-TT_ts-train-service_delay_1","ts-train-service","delay","1",180,120,300,0.067,FALSE,0.293
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_delay_1","ts-train-service","delay","1",180,120,300,0.807,TRUE,0.965
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_delay_1","ts-train-service","delay","1",180,120,300,0,FALSE,0.546
+"RE1-TT","PCA","RE1-TT_ts-train-service_delay_2","ts-train-service","delay","2",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_delay_2","ts-train-service","delay","2",180,120,300,0.933,TRUE,0.975
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_delay_2","ts-train-service","delay","2",180,120,300,0,FALSE,0.729
+"RE1-TT","PCA","RE1-TT_ts-train-service_delay_3","ts-train-service","delay","3",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_delay_3","ts-train-service","delay","3",180,120,300,0.673,TRUE,0.925
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_delay_3","ts-train-service","delay","3",180,120,300,0,FALSE,0.571
+"RE1-TT","PCA","RE1-TT_ts-train-service_delay_4","ts-train-service","delay","4",180,120,300,0,FALSE,0.522
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_delay_4","ts-train-service","delay","4",180,120,300,0.76,TRUE,0.964
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_delay_4","ts-train-service","delay","4",180,120,300,0,FALSE,0.583
+"RE1-TT","PCA","RE1-TT_ts-train-service_delay_5","ts-train-service","delay","5",180,120,300,0.973,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_delay_5","ts-train-service","delay","5",180,120,300,0.76,TRUE,0.975
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_delay_5","ts-train-service","delay","5",180,120,300,0,FALSE,0.517
+"RE1-TT","PCA","RE1-TT_ts-train-service_disk_1","ts-train-service","disk","1",180,120,300,0.977,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_disk_1","ts-train-service","disk","1",180,120,300,0.857,TRUE,0.982
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_disk_1","ts-train-service","disk","1",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-train-service_disk_2","ts-train-service","disk","2",180,120,300,0.927,TRUE,0.991
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_disk_2","ts-train-service","disk","2",180,120,300,0.47,TRUE,0.933
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_disk_2","ts-train-service","disk","2",180,120,300,0,FALSE,0.8
+"RE1-TT","PCA","RE1-TT_ts-train-service_disk_3","ts-train-service","disk","3",180,120,300,0.967,TRUE,0.995
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_disk_3","ts-train-service","disk","3",180,120,300,0.063,FALSE,0.731
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_disk_3","ts-train-service","disk","3",180,120,300,0,FALSE,0.504
+"RE1-TT","PCA","RE1-TT_ts-train-service_disk_4","ts-train-service","disk","4",180,120,300,0.957,TRUE,0.99
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_disk_4","ts-train-service","disk","4",180,120,300,0.113,TRUE,0.659
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_disk_4","ts-train-service","disk","4",180,120,300,0,FALSE,0.554
+"RE1-TT","PCA","RE1-TT_ts-train-service_disk_5","ts-train-service","disk","5",180,120,300,0.873,TRUE,0.921
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_disk_5","ts-train-service","disk","5",180,120,300,0.133,TRUE,0.781
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_disk_5","ts-train-service","disk","5",180,120,300,0,FALSE,0.579
+"RE1-TT","PCA","RE1-TT_ts-train-service_mem_1","ts-train-service","mem","1",180,120,300,0.147,TRUE,0.963
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_mem_1","ts-train-service","mem","1",180,120,300,0.593,TRUE,0.976
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_mem_1","ts-train-service","mem","1",180,120,300,0,FALSE,0.575
+"RE1-TT","PCA","RE1-TT_ts-train-service_mem_2","ts-train-service","mem","2",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_mem_2","ts-train-service","mem","2",180,120,300,0.913,TRUE,0.982
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_mem_2","ts-train-service","mem","2",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-train-service_mem_3","ts-train-service","mem","3",180,120,300,0.99,TRUE,0.999
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_mem_3","ts-train-service","mem","3",180,120,300,0.453,TRUE,0.91
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_mem_3","ts-train-service","mem","3",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-train-service_mem_4","ts-train-service","mem","4",180,120,300,0.38,TRUE,0.969
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_mem_4","ts-train-service","mem","4",180,120,300,0.387,TRUE,0.865
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_mem_4","ts-train-service","mem","4",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-train-service_mem_5","ts-train-service","mem","5",180,120,300,0.56,TRUE,0.985
+"RE1-TT","Isolation Forest","RE1-TT_ts-train-service_mem_5","ts-train-service","mem","5",180,120,300,0.743,TRUE,0.977
+"RE1-TT","OC-SVM","RE1-TT_ts-train-service_mem_5","ts-train-service","mem","5",180,120,300,0,FALSE,0.533
+"RE1-TT","PCA","RE1-TT_ts-travel-service_cpu_1","ts-travel-service","cpu","1",180,120,300,0,FALSE,0.43
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_cpu_1","ts-travel-service","cpu","1",180,120,300,0.563,TRUE,0.917
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_cpu_1","ts-travel-service","cpu","1",180,120,300,0,FALSE,0.571
+"RE1-TT","PCA","RE1-TT_ts-travel-service_cpu_2","ts-travel-service","cpu","2",180,120,300,0.98,TRUE,0.998
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_cpu_2","ts-travel-service","cpu","2",180,120,300,0.223,TRUE,0.759
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_cpu_2","ts-travel-service","cpu","2",180,120,300,0,FALSE,0.579
+"RE1-TT","PCA","RE1-TT_ts-travel-service_cpu_3","ts-travel-service","cpu","3",180,120,300,0.237,TRUE,0.981
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_cpu_3","ts-travel-service","cpu","3",180,120,300,0.02,FALSE,0.721
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_cpu_3","ts-travel-service","cpu","3",180,120,300,0,FALSE,0.725
+"RE1-TT","PCA","RE1-TT_ts-travel-service_cpu_4","ts-travel-service","cpu","4",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_cpu_4","ts-travel-service","cpu","4",180,120,300,0.15,TRUE,0.741
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_cpu_4","ts-travel-service","cpu","4",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-travel-service_cpu_5","ts-travel-service","cpu","5",180,120,300,0.92,TRUE,0.991
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_cpu_5","ts-travel-service","cpu","5",180,120,300,0.053,FALSE,0.55
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_cpu_5","ts-travel-service","cpu","5",180,120,300,0,FALSE,0.558
+"RE1-TT","PCA","RE1-TT_ts-travel-service_delay_1","ts-travel-service","delay","1",180,120,300,0.997,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_delay_1","ts-travel-service","delay","1",180,120,300,0.557,TRUE,0.927
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_delay_1","ts-travel-service","delay","1",180,120,300,0,FALSE,0.571
+"RE1-TT","PCA","RE1-TT_ts-travel-service_delay_2","ts-travel-service","delay","2",180,120,300,0.823,TRUE,0.98
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_delay_2","ts-travel-service","delay","2",180,120,300,0.377,TRUE,0.859
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_delay_2","ts-travel-service","delay","2",180,120,300,0,FALSE,0.546
+"RE1-TT","PCA","RE1-TT_ts-travel-service_delay_3","ts-travel-service","delay","3",180,120,300,0.607,TRUE,0.952
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_delay_3","ts-travel-service","delay","3",180,120,300,0.057,FALSE,0.693
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_delay_3","ts-travel-service","delay","3",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-travel-service_delay_4","ts-travel-service","delay","4",180,120,300,0.977,TRUE,0.997
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_delay_4","ts-travel-service","delay","4",180,120,300,0.55,TRUE,0.944
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_delay_4","ts-travel-service","delay","4",180,120,300,0,FALSE,0.658
+"RE1-TT","PCA","RE1-TT_ts-travel-service_delay_5","ts-travel-service","delay","5",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_delay_5","ts-travel-service","delay","5",180,120,300,0.3,TRUE,0.888
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_delay_5","ts-travel-service","delay","5",180,120,300,0,FALSE,0.571
+"RE1-TT","PCA","RE1-TT_ts-travel-service_disk_1","ts-travel-service","disk","1",180,120,300,0.953,TRUE,0.965
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_disk_1","ts-travel-service","disk","1",180,120,300,0.777,TRUE,0.974
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_disk_1","ts-travel-service","disk","1",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-travel-service_disk_2","ts-travel-service","disk","2",180,120,300,0.363,TRUE,0.926
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_disk_2","ts-travel-service","disk","2",180,120,300,0.113,TRUE,0.912
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_disk_2","ts-travel-service","disk","2",180,120,300,0,FALSE,0.55
+"RE1-TT","PCA","RE1-TT_ts-travel-service_disk_3","ts-travel-service","disk","3",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_disk_3","ts-travel-service","disk","3",180,120,300,0.363,TRUE,0.938
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_disk_3","ts-travel-service","disk","3",180,120,300,0,FALSE,0.562
+"RE1-TT","PCA","RE1-TT_ts-travel-service_disk_4","ts-travel-service","disk","4",180,120,300,0.517,TRUE,0.946
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_disk_4","ts-travel-service","disk","4",180,120,300,0.47,TRUE,0.911
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_disk_4","ts-travel-service","disk","4",180,120,300,0,FALSE,0.508
+"RE1-TT","PCA","RE1-TT_ts-travel-service_disk_5","ts-travel-service","disk","5",180,120,300,0.967,TRUE,0.989
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_disk_5","ts-travel-service","disk","5",180,120,300,0.57,TRUE,0.958
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_disk_5","ts-travel-service","disk","5",180,120,300,0,FALSE,0.517
+"RE1-TT","PCA","RE1-TT_ts-travel-service_mem_1","ts-travel-service","mem","1",180,120,300,0,FALSE,0.644
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_mem_1","ts-travel-service","mem","1",180,120,300,0.297,TRUE,0.882
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_mem_1","ts-travel-service","mem","1",180,120,300,0,FALSE,0.5
+"RE1-TT","PCA","RE1-TT_ts-travel-service_mem_2","ts-travel-service","mem","2",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_mem_2","ts-travel-service","mem","2",180,120,300,0.943,TRUE,0.998
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_mem_2","ts-travel-service","mem","2",180,120,300,0,FALSE,0.542
+"RE1-TT","PCA","RE1-TT_ts-travel-service_mem_3","ts-travel-service","mem","3",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_mem_3","ts-travel-service","mem","3",180,120,300,0.7,TRUE,0.95
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_mem_3","ts-travel-service","mem","3",180,120,300,0,FALSE,0.512
+"RE1-TT","PCA","RE1-TT_ts-travel-service_mem_4","ts-travel-service","mem","4",180,120,300,0.767,TRUE,0.992
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_mem_4","ts-travel-service","mem","4",180,120,300,0.187,TRUE,0.893
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_mem_4","ts-travel-service","mem","4",180,120,300,0,FALSE,0.504
+"RE1-TT","PCA","RE1-TT_ts-travel-service_mem_5","ts-travel-service","mem","5",180,120,300,1,TRUE,1
+"RE1-TT","Isolation Forest","RE1-TT_ts-travel-service_mem_5","ts-travel-service","mem","5",180,120,300,0.423,TRUE,0.955
+"RE1-TT","OC-SVM","RE1-TT_ts-travel-service_mem_5","ts-travel-service","mem","5",180,120,300,0,FALSE,0.5
