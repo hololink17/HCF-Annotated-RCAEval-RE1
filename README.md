@@ -1,6 +1,6 @@
 # HCF-Annotated-RCAEval (RE1)
 
-**根因定位诊断级标注数据集（派生标注层）** · 版本 1.0 · 2026-09
+**根因定位诊断级标注数据集（派生标注层）** · 版本 1.1 · 2026-10
 
 > 为 147 个微服务故障注入案例提供 HCF（Holographic Coding Framework，全息编码框架）
 > 逐案例诊断码标注，以及三种无监督异常检测基线方法在相同逐案例协议下的对照结果。
@@ -60,6 +60,7 @@ HCF 标注未覆盖 RE1-SS/RE1-TT 的 delay/disk/mem 子集（150 案例），�
 | `baseline_sliding.csv` | 滑动窗口分析：W1 健康窗口误报标志与首报窗口（300 案例 × 3 方法） |
 | `baseline_sliding_windows.csv` | 滑动窗口 W1-W6 原始得分 |
 | `README.md` | 本文件 |
+| `CHANGELOG.md` | 修订记录（版本、改动范围与逐案例对照） |
 | `LICENSE` | CC BY 4.0 许可证 |
 
 **示例样例（hcf_annotations.csv 首条记录，字段对应见 §五）：**
@@ -81,7 +82,7 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
 | `inject_time_unix` | 故障注入时刻（Unix 时间戳，取自案例目录 `inject_time.txt`） |
 | `n_train/n_cal/n_ab` | 训练行数 / 校准行数 / 故障窗口行数 |
 | `hcf_detected` | HCF 检出标志（全部 147 例均为 TRUE） |
-| `hcf_codes` | HCF 诊断码（分号分隔，如 `E01;E03;E05`） |
+| `hcf_codes` | HCF 诊断码（分号分隔，如 `E01;E03;E05`）；单个案例可带 1 个或多个码 |
 | `pca_detected` 等 | 三种基线（PCA / Isolation Forest / OC-SVM）的检出标志与该案例 AUC |
 
 ## 六、评估协议（基线方法）
@@ -131,7 +132,19 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
 本数据集以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授权（详见 `LICENSE`）。
 使用或引用时必须同时署名并引用 RCAEval 原始数据集与 HCF 方法论文。
 
-## 十、联系方式
+## 十、修订记录
+
+| 版本 | 日期 | 改动范围 | 说明 |
+|---|---|---|---|
+| **1.1** | 2026-10 | `hcf_annotations.csv`：**20 个单元格**（25 个 disk 案例中的 20 个） | disk 子集诊断码修正：16 例 `E01` → `E01;E05`，4 例 `E01` → `E01;E10`。**不改动**检出判定与全部基线结果。逐案例对照与原因见 [`CHANGELOG.md`](CHANGELOG.md) |
+| 1.0 | 2026-09 | 首次发布 | 147 案例标注 ＋ 三类基线逐案例结果 |
+
+> 本次修订的**影响边界**（供复核）：`hcf_detected` 全部 147 例仍为 `TRUE`；
+> 三类基线（PCA / Isolation Forest / OC-SVM）的检出标志与 AUC **一字未改**；
+> 案例总数、`case_id` 与全部定位字段（`dataset` / `service` / `fault` / `repeat_no`）
+> 均未变动；**仅 `hcf_codes` 一列、20 个单元格**发生变化。
+
+## 十一、联系方式
 
 Xiangyu Liu（通讯作者）
 Email: liuxiangyu@liuxiangyu.com.cn
