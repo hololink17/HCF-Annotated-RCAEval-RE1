@@ -1,5 +1,7 @@
 # HCF-Annotated-RCAEval (RE1)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23282205.svg)](https://doi.org/10.5281/zenodo.23282205)
+
 **根因定位诊断级标注数据集（派生标注层）** · 版本 1.1 · 2026-10
 
 > 为 147 个微服务故障注入案例提供 HCF（Holographic Coding Framework，全息编码框架）
@@ -103,7 +105,17 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
   title   = {HCF-Annotated RCAEval (RE1): A Diagnostic-Level Annotated Dataset for Root Cause Analysis},
   author  = {Liu, Xiangyu},
   year    = {2026},
-  note    = {Derived from RCAEval; CC BY 4.0}
+  note    = {Derived from RCAEval; CC BY 4.0},
+  doi     = {10.5281/zenodo.23282205}
+}
+
+@article{liu_hcf_preprint_2026,
+  title   = {Assessing System Coherence via Conflict Graph Analysis: A Validated Method for Microservice State Assessment with Early Warning},
+  author  = {Liu, Xiangyu},
+  year    = {2026},
+  journal = {Preprint},
+  note    = {Manuscript submitted to IEEE Transactions on Software Engineering},
+  doi     = {10.5281/zenodo.23282205}
 }
 
 @article{pham_rcaeval_2024,
@@ -117,8 +129,10 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
 
 1. 原始数据集（**必须引用**）：Pham, L., Zhang, H., Ha, H., Salim, F., Zhang, X. *RCAEval: A Benchmark for
    Root Cause Analysis of Microservice Systems with Telemetry Data*. arXiv:2412.17015, 2024.
-2. HCF 方法：Xiangyu Liu. *Holographic Coding Framework 软件系统验证论文*
-   （投稿于 IEEE Transactions on Software Engineering）。
+2. HCF 方法：Xiangyu Liu. *Assessing System Coherence via Conflict Graph Analysis: A Validated Method
+   for Microservice State Assessment with Early Warning*. Preprint, 2026.
+   DOI: [10.5281/zenodo.23282205](https://doi.org/10.5281/zenodo.23282205)
+   （manuscript submitted to IEEE Transactions on Software Engineering）。
 
 ## 八、边界与披露说明
 
