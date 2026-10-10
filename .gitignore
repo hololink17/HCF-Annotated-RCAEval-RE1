@@ -1,0 +1,3 @@
+# local packaging artifacts (dataset is distributed as tracked files, not as a zip)
+HCF-Annotated-RCAEval-RE1.zip
+*.zip
