@@ -1,6 +1,6 @@
 # HCF-Annotated-RCAEval (RE1)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23282205.svg)](https://doi.org/10.5281/zenodo.23282205)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23282204.svg)](https://doi.org/10.5281/zenodo.23282204)
 
 **根因定位诊断级标注数据集（派生标注层）** · 版本 1.2 · 2026-10
 
@@ -116,12 +116,12 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
 ## 七、引用
 
 ```bibtex
-@article{liu_hcf_annotated_rcaeval,
+@misc{liu_hcf_annotated_rcaeval,
   title   = {HCF-Annotated RCAEval (RE1): A Diagnostic-Level Annotated Dataset for Root Cause Analysis},
   author  = {Liu, Xiangyu},
   year    = {2026},
   note    = {Derived from RCAEval; CC BY 4.0},
-  doi     = {10.5281/zenodo.23282205}
+  url     = {https://github.com/hololink17/HCF-Annotated-RCAEval-RE1}
 }
 
 @article{liu_hcf_preprint_2026,
@@ -129,8 +129,8 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
   author  = {Liu, Xiangyu},
   year    = {2026},
   journal = {Preprint},
-  note    = {Manuscript submitted to IEEE Transactions on Software Engineering},
-  doi     = {10.5281/zenodo.23282205}
+  note    = {Concept DOI; current version v1.2 = 10.5281/zenodo.23436423; manuscript submitted to IEEE Transactions on Software Engineering},
+  doi     = {10.5281/zenodo.23282204}
 }
 
 @article{pham_rcaeval_2024,
@@ -146,8 +146,9 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
    Root Cause Analysis of Microservice Systems with Telemetry Data*. arXiv:2412.17015, 2024.
 2. HCF 方法：Xiangyu Liu. *Assessing System Coherence via Conflict Graph Analysis: A Validated Method
    for Microservice State Assessment with Early Warning*. Preprint, 2026.
-   DOI: [10.5281/zenodo.23282205](https://doi.org/10.5281/zenodo.23282205)
-   （manuscript submitted to IEEE Transactions on Software Engineering）。
+   Concept DOI: [10.5281/zenodo.23282204](https://doi.org/10.5281/zenodo.23282204)
+   （永远指向最新版；当前 v1.2 版本 DOI 为 10.5281/zenodo.23436423，
+   manuscript submitted to IEEE Transactions on Software Engineering）。
 
 ## 八、边界与披露说明
 
@@ -165,6 +166,7 @@ RE1-OB_adservice_cpu_1,RE1-OB,adservice,cpu,1,1685202688,180,120,300,TRUE,E01,TR
 
 | 版本 | 日期 | 改动范围 | 说明 |
 |---|---|---|---|
+| 文档补订 | 2026-11 | README 顶部 DOI badge、§七引用块与正文 | 修正 DOI 引用错配：数据集条目原借用预印本 v1.0 版本 DOI（数据集本身无 DOI），改为 GitHub 仓库 URL；预印本条目、正文与 badge 改用 concept DOI `10.5281/zenodo.23282204`（永远指向最新版），并注明当前版本 DOI `10.5281/zenodo.23436423`（v1.2）。**数据文件零改动，数据集版本仍为 1.2** |
 | **1.2** | 2026-10 | 文档层：README §三（补）公开案例链与确定性说明；CHANGELOG 增补 [1.2] 条目 | 补齐公开案例链 202 → 177 → 147 → 122、147 例检出率确定性复现（独立复跑逐位一致）、提前预警（W2 检出、较 W6 约 20 分钟）口径；**数据文件零改动**。逐条对照见 [`CHANGELOG.md`](CHANGELOG.md) |
 | **1.1** | 2026-10 | `hcf_annotations.csv`：**20 个单元格**（25 个 disk 案例中的 20 个） | disk 子集诊断码修正：16 例 `E01` → `E01;E05`，4 例 `E01` → `E01;E10`。**不改动**检出判定与全部基线结果。逐案例对照与原因见 [`CHANGELOG.md`](CHANGELOG.md) |
 | 1.0 | 2026-09 | 首次发布 | 147 案例标注 ＋ 三类基线逐案例结果 |
